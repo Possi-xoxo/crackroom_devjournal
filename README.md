@@ -84,3 +84,5 @@ node tests/concept-migration.cjs
 The migration checks cover both original journal revisions, custom notes, completed tasks, repeat-load behavior, and the Egg dossier.
 
 The confirmed seven-stage excavation sequence appears in the Egg dossier and Player progression. Untouched older plans migrate to this sequence; customized plans remain editable alongside the current reference table. `docs/design-revision-four.js` holds frozen defaults for safe migration.
+
+Computer Research (`#research`) documents the in-game desktop hub, eleven candidate minigames, research gates, and hidden desktop routes. Expand a program to add design notes; these save locally and travel with JSON exports/restores. This is a design dossier, not a playable implementation of the minigames.

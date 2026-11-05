@@ -1,11 +1,19 @@
-// Current design direction and editable player-roadmap starting points.
+// Frozen revision-five note values for preserving customized browser saves.
+const revisionFiveNotes = {
+  "loop": "Start the day by go-kart travel to the area of interest → arrive in the wide-open egg chamber at the center of a larger maze → read the daily assignment and choose equipment from the chamber store → collect glass and other accessible materials → deposit the haul through the collection system into the shared cash pool → complete research-table minigames to unlock better shop tools → use the reality gun to phase glitched objects back into existence before clearing them → uncover doors, tissue, enemies, carcasses, and clues → complete an event or equipment assignment → return through the main hallway → begin another day.\n\nDaily purchases reset each morning. Store and research progression survive day-reset anomalies, allowing quick recovery of previously unlocked capabilities. Unspent cash carryover, placed scaffolding, and exact world-reset rules remain open. The earlier waking-room / antechamber / safety-door idea can remain in the starting hub, but its position relative to go-kart travel is not fixed.\n\nConfirmed excavation sequence: Reflective glass exterior → Abandoned Utility Halls → Poolrooms → Abandoned Office → Terror Hotel → Threshold → Core. Tool sequence: hammer and scaffolding → hard-tool auger → reality-gun research → soft-tool pick → reuse hard-tool auger → solvent research → exposed core.",
+  "world": "The egg chamber is a wide-open room at the center of a larger Backrooms maze. The day starts with go-kart travel to the area of interest. Maze passages can produce incoming monsters; each should have a unique silhouette, recognizable approach cues, and learnable ways to avoid it.\n\nThe sphere remains above the chasm with access extended by scaffolding. The chamber contains a shared-cash collection deposit system and equipment store. A research table may unlock shop upgrades through minigames.\n\nDoors uncovered inside the egg transport players to event spaces for puzzles or enemy evasion, then exit back into the main hallway. Anomalies may replay previous days with repeated scripts. Finding your own dead body is an intended unsettling event idea.",
+  "mechanics": "Established direction — November 5, 2026\n• Begin the day with go-kart travel to the wide-open egg chamber inside a larger maze.\n• Excavate seven stages: Reflective glass exterior → Abandoned Utility Halls → Poolrooms → Abandoned Office → Terror Hotel → Threshold → Core.\n• Common materials can appear as sketch-like, glitched reality; reality-gun research enables phasing them back into existence before clearing them in the Poolrooms.\n• Earn resources through excavation and pay them into one shared team cash pool.\n• Purchased daily items reset each morning.\n• Day-reset anomalies preserve store and research progression.\n• Progress through collection milestones, directions such as find the door, and assignments to install unique equipment.\n• Hidden doors lead to puzzle or evasion event spaces and return to the main hallway.\n• Monsters can arrive from the maze; enemies or carcasses can emerge from the egg.\n• Threats need distinctive warnings so players can identify and avoid them.\n• Include secret endings and opportunities that appear across days.\n\nProposed implementation\nA research table uses minigames to unlock shop capabilities. The seven-stage order and tool assignments are confirmed. Prices, collection thresholds, research minigames, and ending conditions remain open.",
+  "decisions": "Confirmed design direction\n• Working title: In to the Crackrooms.\n• The egg is spherical. Confirmed sequence: Reflective glass exterior → Abandoned Utility Halls → Poolrooms → Abandoned Office → Terror Hotel → Threshold → Core.\n• Tissue may bleed with deeper excavation.\n• Start with a hammer and scaffolding. Use the hard-tool auger in Utility Halls and again in Terror Hotel, research the reality gun for Poolrooms, acquire the soft-tool pick for Abandoned Office, and research solvent for Threshold.\n• Start the day by go-kart travel to a wide-open chamber at the center of a Backrooms maze.\n• Resource payouts and purchases use one shared team cash pool.\n• All items purchased for the day reset each morning.\n• Store and research progression survive day-reset anomalies.\n• Enemy approaches should be identifiable and avoidable.\n• Egg doors lead to event spaces and exit back into the main hallway.\n• Some days direct players to find a door or set up special equipment.\n• Secret endings are required; walking out a door and opportunities across days are route ideas.\n\nConcepts to develop\nA minigame-based research table for shop upgrades, repeated-day scripts, and discovering your own dead body. The excavation order and required tools are decided. Acquisition prices, numerical unlock thresholds, research challenges, and ending conditions remain open."
+};
+
+// Current design direction and editable starting points.
 const currentDesign = {
   "notes": {
     "pitch": "A research team travels by go-kart into a Backrooms maze to excavate a spherical egg through seven stages, from reflective glass to a fleshy core. A shared cash pool funds tools and research while discoveries open event doors and possible endings.",
-    "loop": "Start the day by go-kart travel to the area of interest → arrive in the wide-open egg chamber at the center of a larger maze → read the daily assignment and choose equipment from the chamber store → collect glass and other accessible materials → deposit the haul through the collection system into the shared cash pool → complete research-table minigames to unlock better shop tools → use the reality gun to phase glitched objects back into existence before clearing them → uncover doors, tissue, enemies, carcasses, and clues → complete an event or equipment assignment → return through the main hallway → begin another day.\n\nDaily purchases reset each morning. Store and research progression survive day-reset anomalies, allowing quick recovery of previously unlocked capabilities. Unspent cash carryover, placed scaffolding, and exact world-reset rules remain open. The earlier waking-room / antechamber / safety-door idea can remain in the starting hub, but its position relative to go-kart travel is not fixed.\n\nConfirmed excavation sequence: Reflective glass exterior → Abandoned Utility Halls → Poolrooms → Abandoned Office → Terror Hotel → Threshold → Core. Tool sequence: hammer and scaffolding → hard-tool auger → reality-gun research → soft-tool pick → reuse hard-tool auger → solvent research → exposed core.",
-    "world": "The egg chamber is a wide-open room at the center of a larger Backrooms maze. The day starts with go-kart travel to the area of interest. Maze passages can produce incoming monsters; each should have a unique silhouette, recognizable approach cues, and learnable ways to avoid it.\n\nThe sphere remains above the chasm with access extended by scaffolding. The chamber contains a shared-cash collection deposit system and equipment store. A research table may unlock shop upgrades through minigames.\n\nDoors uncovered inside the egg transport players to event spaces for puzzles or enemy evasion, then exit back into the main hallway. Anomalies may replay previous days with repeated scripts. Finding your own dead body is an intended unsettling event idea.",
-    "mechanics": "Established direction — November 5, 2026\n• Begin the day with go-kart travel to the wide-open egg chamber inside a larger maze.\n• Excavate seven stages: Reflective glass exterior → Abandoned Utility Halls → Poolrooms → Abandoned Office → Terror Hotel → Threshold → Core.\n• Common materials can appear as sketch-like, glitched reality; reality-gun research enables phasing them back into existence before clearing them in the Poolrooms.\n• Earn resources through excavation and pay them into one shared team cash pool.\n• Purchased daily items reset each morning.\n• Day-reset anomalies preserve store and research progression.\n• Progress through collection milestones, directions such as find the door, and assignments to install unique equipment.\n• Hidden doors lead to puzzle or evasion event spaces and return to the main hallway.\n• Monsters can arrive from the maze; enemies or carcasses can emerge from the egg.\n• Threats need distinctive warnings so players can identify and avoid them.\n• Include secret endings and opportunities that appear across days.\n\nProposed implementation\nA research table uses minigames to unlock shop capabilities. The seven-stage order and tool assignments are confirmed. Prices, collection thresholds, research minigames, and ending conditions remain open.",
-    "decisions": "Confirmed design direction\n• Working title: In to the Crackrooms.\n• The egg is spherical. Confirmed sequence: Reflective glass exterior → Abandoned Utility Halls → Poolrooms → Abandoned Office → Terror Hotel → Threshold → Core.\n• Tissue may bleed with deeper excavation.\n• Start with a hammer and scaffolding. Use the hard-tool auger in Utility Halls and again in Terror Hotel, research the reality gun for Poolrooms, acquire the soft-tool pick for Abandoned Office, and research solvent for Threshold.\n• Start the day by go-kart travel to a wide-open chamber at the center of a Backrooms maze.\n• Resource payouts and purchases use one shared team cash pool.\n• All items purchased for the day reset each morning.\n• Store and research progression survive day-reset anomalies.\n• Enemy approaches should be identifiable and avoidable.\n• Egg doors lead to event spaces and exit back into the main hallway.\n• Some days direct players to find a door or set up special equipment.\n• Secret endings are required; walking out a door and opportunities across days are route ideas.\n\nConcepts to develop\nA minigame-based research table for shop upgrades, repeated-day scripts, and discovering your own dead body. The excavation order and required tools are decided. Acquisition prices, numerical unlock thresholds, research challenges, and ending conditions remain open.",
+    "loop": "Start the day by go-kart travel to the area of interest → arrive in the wide-open egg chamber at the center of a larger maze → read the daily assignment and choose equipment from the chamber store → collect glass and other accessible materials → deposit the haul through the collection system into the shared cash pool → use the full company desktop computer and its disguised research minigames to unlock the next progression capability → use the reality gun to phase glitched objects back into existence before clearing them → uncover doors, tissue, enemies, carcasses, and clues → complete an event or equipment assignment → return through the main hallway → begin another day.\n\nDaily purchases reset each morning. Store and research progression survive day-reset anomalies, allowing quick recovery of previously unlocked capabilities. Unspent cash carryover, placed scaffolding, and exact world-reset rules remain open. The earlier waking-room / antechamber / safety-door idea can remain in the starting hub, but its position relative to go-kart travel is not fixed.\n\nConfirmed excavation sequence: Reflective glass exterior → Abandoned Utility Halls → Poolrooms → Abandoned Office → Terror Hotel → Threshold → Core. Tool sequence: hammer and scaffolding → hard-tool auger → reality-gun research → soft-tool pick → reuse hard-tool auger → solvent research → exposed core.",
+    "world": "The egg chamber is a wide-open room at the center of a larger Backrooms maze. The day starts with go-kart travel to the area of interest. Maze passages can produce incoming monsters; each should have a unique silhouette, recognizable approach cues, and learnable ways to avoid it.\n\nThe sphere remains above the chasm with access extended by scaffolding. The chamber contains a shared-cash collection deposit system and equipment store. A full desktop computer is the research hub. Ordinary company software conceals minigames, lore, and alternate endings. Emails, folders, browser history, internal tools, and error messages form a larger desktop puzzle.\n\nDoors uncovered inside the egg transport players to event spaces for puzzles or enemy evasion, then exit back into the main hallway. Anomalies may replay previous days with repeated scripts. Finding your own dead body is an intended unsettling event idea.",
+    "mechanics": "Established direction — November 5, 2026\n• Begin the day with go-kart travel to the wide-open egg chamber inside a larger maze.\n• Excavate seven stages: Reflective glass exterior → Abandoned Utility Halls → Poolrooms → Abandoned Office → Terror Hotel → Threshold → Core.\n• Common materials can appear as sketch-like, glitched reality; reality-gun research enables phasing them back into existence before clearing them in the Poolrooms.\n• Earn resources through excavation and pay them into one shared team cash pool.\n• Purchased daily items reset each morning.\n• Day-reset anomalies preserve store and research progression.\n• Progress through collection milestones, directions such as find the door, and assignments to install unique equipment.\n• Hidden doors lead to puzzle or evasion event spaces and return to the main hallway.\n• Monsters can arrive from the maze; enemies or carcasses can emerge from the egg.\n• Threats need distinctive warnings so players can identify and avoid them.\n• Include secret endings and opportunities that appear across days.\n\nProposed implementation\nComputer Research uses ordinary company software to hide progression minigames. Reality-gun research in Poolrooms and solvent research at Threshold are established gates; the specific minigames assigned to each are proposals. The seven-stage order and tool assignments are confirmed. Prices, collection thresholds, research minigames, and ending conditions remain open.",
+    "decisions": "Confirmed design direction\n• Working title: In to the Crackrooms.\n• The egg is spherical. Confirmed sequence: Reflective glass exterior → Abandoned Utility Halls → Poolrooms → Abandoned Office → Terror Hotel → Threshold → Core.\n• Tissue may bleed with deeper excavation.\n• Start with a hammer and scaffolding. Use the hard-tool auger in Utility Halls and again in Terror Hotel, research the reality gun for Poolrooms, acquire the soft-tool pick for Abandoned Office, and research solvent for Threshold.\n• Start the day by go-kart travel to a wide-open chamber at the center of a Backrooms maze.\n• Resource payouts and purchases use one shared team cash pool.\n• All items purchased for the day reset each morning.\n• Store and research progression survive day-reset anomalies.\n• Enemy approaches should be identifiable and avoidable.\n• Egg doors lead to event spaces and exit back into the main hallway.\n• Some days direct players to find a door or set up special equipment.\n• Secret endings are required; walking out a door and opportunities across days are route ideas.\n\nConcepts to develop\nA full company desktop acts as the Computer Research hub for progression, lore, and alternate endings. Minigame assignments, repeated-day scripts, and discovering your own dead body need further design. The excavation order and required tools are decided. Acquisition prices, numerical unlock thresholds, research challenges, and ending conditions remain open.",
     "questions": "What counts as completing a glass collection milestone?\nWhich research minigames are fun to repeat, and which should only be completed once?\nHow long does a realified object remain solid, and how is that duration communicated?\nDoes a failed research minigame cost resources, time, or only a retry?\nHow are maze threats signaled before they enter the chamber?\nWhen does an egg reveal produce an enemy versus a carcass or clue?\nWhich repeated-day scripts can be exploited once players remember them?\nWhat clue links a discovered body to the player?\nWhich exit opportunities appear across days, and how do players recognize a secret route?\nDoes unspent shared cash carry over between mornings?\nWhat baseline equipment or allowance prevents a broke team from becoming stuck?\nWho authorizes purchases from the shared pool?\nDo placed scaffolding, opened doors, excavation changes, and collected clues persist?\nHow does the starting hub and safety-door concept connect to the go-kart route?\nWhat prerequisites and prices make the auger and soft-tool pick available?\nWhich tool clears Poolrooms objects after the reality gun makes them tangible?\nHow is solvent applied, and what research challenge unlocks it?\nWhich events and secret-exit opportunities occur within each of the seven stages?"
   },
   "egg": {
@@ -150,6 +158,96 @@ const currentDesign = {
     {
       "title": "Core",
       "obstacle": "Removing the wallpaper exposes the sphere’s fleshy, irritated center."
+    }
+  ],
+  "researchGames": [
+    {
+      "id": "rhythm",
+      "title": "Rhythm game",
+      "software": "Equipment Calibration",
+      "challenge": "Guitar Hero–style timed inputs, disguised as calibrating equipment or synchronizing signals.",
+      "discovery": "Synchronization errors or an unexpected signal could hint that the equipment is communicating with something.",
+      "use": "Candidate for reality-gun signal calibration. This assignment is a proposal."
+    },
+    {
+      "id": "typing",
+      "title": "Typing speed challenge",
+      "software": "Company Memo Transcription",
+      "challenge": "Transcribe company memos against a timer while maintaining accuracy.",
+      "discovery": "Strange instructions and confidential details begin appearing inside otherwise routine text.",
+      "use": "Could deliver research instructions and company lore through the same task."
+    },
+    {
+      "id": "shapes",
+      "title": "Count the Shapes",
+      "software": "Visual Inspection",
+      "challenge": "Count shapes in an image with overlapping outlines and increasingly distracting patterns.",
+      "discovery": "A repeated shape or inconsistency could become a clue elsewhere on the desktop.",
+      "use": "Candidate for inspecting unstable geometry before reality-gun research."
+    },
+    {
+      "id": "runner",
+      "title": "Dinosaur runner",
+      "software": "Network Offline",
+      "challenge": "A Chrome dinosaur–style runner appears when the company network goes offline.",
+      "discovery": "The outage screen becomes an unexpected place to find a clue or a path into another program.",
+      "use": "A possible optional discovery during downtime; whether it gates research is undecided."
+    },
+    {
+      "id": "clicker",
+      "title": "Cookie Clicker",
+      "software": "Productivity Monitor",
+      "challenge": "Repetitive clicking earns “productivity points,” with upgrades that change the process.",
+      "discovery": "Upgrades gradually reveal what the company is actually producing.",
+      "use": "A possible company-lore thread. The relationship between productivity points, research, and shared cash is open."
+    },
+    {
+      "id": "trace",
+      "title": "Draw a Perfect Circle / Trace the Shape",
+      "software": "Precision Diagnostics",
+      "challenge": "Precision mouse challenges with increasingly strict scoring and unsettling shapes.",
+      "discovery": "Familiar calibration outlines become less ordinary as the task progresses.",
+      "use": "Candidate for calibration research; score thresholds and an accessible alternative remain open."
+    },
+    {
+      "id": "python",
+      "title": "Python scripting console",
+      "software": "Maintenance Console",
+      "challenge": "Solve short programming challenges, repair scripts, or automate company tasks.",
+      "discovery": "Exploring the console can expose hidden files and commands.",
+      "use": "Could unlock an internal tool or reveal a secret route. Required programming knowledge and hints need design."
+    },
+    {
+      "id": "captcha",
+      "title": "CAPTCHA challenges",
+      "software": "Employee Verification",
+      "challenge": "Select matching images or increasingly obscure colors, including chartreuse, vermilion, and periwinkle.",
+      "discovery": "Later prompts become suspiciously specific.",
+      "use": "A possible access-control puzzle or research check. Color-based tasks need an equivalent readable path."
+    },
+    {
+      "id": "arithmetic",
+      "title": "Multiplication under pressure",
+      "software": "Throughput Accounting",
+      "challenge": "Answer multiplication questions before time expires while notifications and alarms compete for attention.",
+      "discovery": "The distracting messages may carry useful information as well as pressure.",
+      "use": "Candidate for a research calculation, such as solvent preparation. This assignment is a proposal."
+    },
+    {
+      "id": "number",
+      "title": "Guess the Number",
+      "software": "Parameter Tuning",
+      "challenge": "Use higher/lower clues to find a number within a limited number of guesses.",
+      "discovery": "Hidden variants use patterns or clues found elsewhere on the desktop.",
+      "use": "Could tune a research parameter or connect several programs into one puzzle."
+    },
+    {
+      "id": "dialogue",
+      "title": "Resistant AI dialogue",
+      "software": "Company Helpdesk",
+      "challenge": "Convince a stubborn company chatbot to help, disclose information, or grant access.",
+      "discovery": "Company lore becomes conversational leverage: details from memos or files change what the player can ask or prove.",
+      "use": "A possible research-access gate or alternate-ending route. Whether dialogue is authored, simulated, or model-driven remains open."
     }
   ]
 };
