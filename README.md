@@ -1,6 +1,6 @@
 # In to the Crackrooms — Development journal
 
-A static, interactive development journal for **In to the Crackrooms**. The complete website lives in [`docs/`](docs/). It includes the game vision, the editable Egg dossier, session logs, milestone tracking, a design notebook, and concept art of the spherical egg.
+A static, interactive development journal for **In to the Crackrooms**. The complete website lives in [`docs/`](docs/). It includes the game vision, the editable Egg dossier, a player progression roadmap with store unlocks, session logs, milestone tracking, a design notebook, and concept art of the spherical egg.
 
 The site uses plain HTML, CSS, and JavaScript. No application server, build step, package install, API key, or ChatGPT login is required. Typography optionally loads from Google Fonts; system fonts are used if unavailable.
 
@@ -9,7 +9,8 @@ The site uses plain HTML, CSS, and JavaScript. No application server, build step
 ```text
 docs/
   index.html          # Page shell and navigation
-  app.js              # Interactions, default content, storage and migrations
+  app.js              # Interactions, storage and migrations
+  design-content.js   # Current design notes and player-roadmap defaults
   style.css           # Responsive layout
   assets/             # Original and revised concept artwork
   .nojekyll           # Serve as a plain static website
@@ -64,7 +65,10 @@ Different domains have separate browser storage. Sharing the Pages URL does not 
 
 - Change the document structure in `docs/index.html`.
 - Change the visual style in `docs/style.css`.
-- Change the game vision, interactions, and default notebook or dossier content in `docs/app.js`.
+- Change current design notes, Egg dossier defaults, and player-roadmap starting points in `docs/design-content.js`.
+- Change the rendered game vision, interactions, and migrations in `docs/app.js`.
+- Use **Player progression → Edit stage** in the browser to revise stage titles, bullet lists, and tool-unlock gates. These edits save locally and are included in JSON backups. The store table follows those edits.
+- **Build milestones** tracks development tasks; **Player progression** describes the player’s journey from the first shift to endings.
 - Keep artwork in `docs/assets/`; the original composition is retained alongside the spherical revision.
 
 Existing browser saves may contain user-edited content. Default-content updates should include a migration in `migrateConcept` and advance `contentRevision`, preserving customized fields, session entries, and completed work. Do not change the storage key casually; existing backups retain compatibility with the original site.
@@ -72,6 +76,7 @@ Existing browser saves may contain user-edited content. Default-content updates 
 Run the existing checks from the repository root:
 
 ```sh
+node --check docs/design-content.js
 node --check docs/app.js
 node tests/concept-migration.cjs
 ```

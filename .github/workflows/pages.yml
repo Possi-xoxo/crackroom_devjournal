@@ -23,7 +23,9 @@ jobs:
       - name: Check out the repository
         uses: actions/checkout@v6
       - name: Check JavaScript syntax
-        run: node --check docs/app.js
+        run: |
+          node --check docs/design-content.js
+          node --check docs/app.js
       - name: Verify saved-progress migrations
         run: node tests/concept-migration.cjs
       - name: Configure Pages
