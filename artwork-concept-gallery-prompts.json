@@ -1,0 +1,116 @@
+{
+  "mode": "builtin",
+  "date": "2026-11-05",
+  "images": [
+    {
+      "id": "collapse-atlas",
+      "title": "The collapsed district",
+      "category": "Environment",
+      "prompt": "Use case: stylized-concept. Asset type: one photorealistic cinematic concept photograph for the cooperative game In to the Crackrooms. Use the attached existing artwork ONLY as a world, material, and lighting reference; create a distinctly new composition, not a variation of that shot. This world is a region of the Backrooms that collapsed into a gigantic reflective sphere over a chasm. Researchers employed by a company wear practical yellow protective workwear. Keep worn industrial equipment, ordinary architecture and stale fluorescent light, tactile realistic surfaces, cinematic depth, and an uneasy mundane atmosphere. Landscape 3:2. No typography, captions, logos, watermark or UI overlay. Do not add faces or eyes to the sphere. An extreme high-angle architectural vista of the central chamber from a distant upper maintenance balcony. The enormous spherical anomaly hangs in an abyss; surrounding maze rooms and severed corridors appear folded toward its boundary, like a district turned inward. Scale comes from tiny work lights and scaffold bridges, not a foreground character. Emphasize impossible spatial relationships, curved silhouette, fractured floor slabs, cold haze. Entirely different from the eye-level reference.",
+      "references": [
+        "/Users/mchlrtkwski/BackroomsLore/crackroom_devjournal/docs/assets/journey-inspiration/arrival-v1.png"
+      ],
+      "source": "/Users/mchlrtkwski/.codex/generated_images/01a19f5f-f44c-7fe3-bf5e-3c94c1e5220e/exec-824d9fa2-e833-4f14-84b2-dc46f0e35431.png",
+      "file": "docs/assets/concept-gallery/collapse-atlas-v1.png"
+    },
+    {
+      "id": "waking-room",
+      "title": "Before the first shift",
+      "category": "Environment",
+      "prompt": "Use case: stylized-concept. Asset type: one photorealistic cinematic concept photograph for the cooperative game In to the Crackrooms. Use the attached existing artwork ONLY as a world, material, and lighting reference; create a distinctly new composition, not a variation of that shot. This world is a region of the Backrooms that collapsed into a gigantic reflective sphere over a chasm. Researchers employed by a company wear practical yellow protective workwear. Keep worn industrial equipment, ordinary architecture and stale fluorescent light, tactile realistic surfaces, cinematic depth, and an uneasy mundane atmosphere. Landscape 3:2. No typography, captions, logos, watermark or UI overlay. Do not add faces or eyes to the sphere. Intimate low-ceiling company waking room within the Backrooms: narrow bunks, one open locker with a yellow work suit, boots under the bed, a plastic cup, a dim fluorescent tube and an ajar doorway leading toward an antechamber safety door. No people in frame. Quiet ordinary start of a disturbing workday. Close wide-angle interior composition; no sphere visible.",
+      "references": [
+        "/Users/mchlrtkwski/BackroomsLore/crackroom_devjournal/docs/assets/journey-inspiration/arrival-v1.png"
+      ],
+      "source": "/Users/mchlrtkwski/.codex/generated_images/01a19f5f-f44c-7fe3-bf5e-3c94c1e5220e/exec-37a07198-c607-42af-9161-2fa859b78467.png",
+      "file": "docs/assets/concept-gallery/waking-room-v1.png"
+    },
+    {
+      "id": "kart-run",
+      "title": "The route to work",
+      "category": "Fieldwork",
+      "prompt": "Use case: stylized-concept. Asset type: one photorealistic cinematic concept photograph for the cooperative game In to the Crackrooms. Use the attached existing artwork ONLY as a world, material, and lighting reference; create a distinctly new composition, not a variation of that shot. This world is a region of the Backrooms that collapsed into a gigantic reflective sphere over a chasm. Researchers employed by a company wear practical yellow protective workwear. Keep worn industrial equipment, ordinary architecture and stale fluorescent light, tactile realistic surfaces, cinematic depth, and an uneasy mundane atmosphere. Landscape 3:2. No typography, captions, logos, watermark or UI overlay. Do not add faces or eyes to the sphere. Low camera just above a go-kart rear wheel as two researchers drive down a long bending yellow Backrooms service corridor toward distant work lights. Tool cases secured behind them, uneven carpet becoming concrete, repeating pillars and one fork in the maze. Convey movement through restrained wheel blur while the corridor remains readable. No egg in foreground, no shop, focus on travel and anticipation.",
+      "references": [
+        "/Users/mchlrtkwski/BackroomsLore/crackroom_devjournal/docs/assets/journey-inspiration/arrival-v1.png"
+      ],
+      "source": "/Users/mchlrtkwski/.codex/generated_images/01a19f5f-f44c-7fe3-bf5e-3c94c1e5220e/exec-b83ebd89-b8a0-43ca-b1d4-052681d4b099.png",
+      "file": "docs/assets/concept-gallery/kart-run-v1.png"
+    },
+    {
+      "id": "scaffold-crew",
+      "title": "Building a way across",
+      "category": "Fieldwork",
+      "prompt": "Use case: stylized-concept. Asset type: one photorealistic cinematic concept photograph for the cooperative game In to the Crackrooms. Use the attached existing artwork ONLY as a world, material, and lighting reference; create a distinctly new composition, not a variation of that shot. This world is a region of the Backrooms that collapsed into a gigantic reflective sphere over a chasm. Researchers employed by a company wear practical yellow protective workwear. Keep worn industrial equipment, ordinary architecture and stale fluorescent light, tactile realistic surfaces, cinematic depth, and an uneasy mundane atmosphere. Landscape 3:2. No typography, captions, logos, watermark or UI overlay. Do not add faces or eyes to the sphere. Side-on vertiginous view of two researchers cooperatively adding a modular scaffold section at the edge of a massive void beside the reflective sphere. One braces a new rail while the other secures a clamp; planks, diagonal supports and tethered tool bags show real construction logic. The sphere is a cropped curved wall along one edge, the chasm dominates the negative space. Dramatic work lamps, readable hands and equipment, no floating unsupported platforms.",
+      "references": [
+        "/Users/mchlrtkwski/BackroomsLore/crackroom_devjournal/docs/assets/journey-inspiration/arrival-v1.png"
+      ],
+      "source": "/Users/mchlrtkwski/.codex/generated_images/01a19f5f-f44c-7fe3-bf5e-3c94c1e5220e/exec-3f475544-cf17-440c-8c81-193212ec8fec.png",
+      "file": "docs/assets/concept-gallery/scaffold-crew-v1.png"
+    },
+    {
+      "id": "deposit-machine",
+      "title": "What the machine accepts",
+      "category": "Fieldwork",
+      "prompt": "Use case: stylized-concept. Asset type: one photorealistic cinematic concept photograph for the cooperative game In to the Crackrooms. Use the attached existing artwork ONLY as a world, material, and lighting reference; create a distinctly new composition, not a variation of that shot. This world is a region of the Backrooms that collapsed into a gigantic reflective sphere over a chasm. Researchers employed by a company wear practical yellow protective workwear. Keep worn industrial equipment, ordinary architecture and stale fluorescent light, tactile realistic surfaces, cinematic depth, and an uneasy mundane atmosphere. Landscape 3:2. No typography, captions, logos, watermark or UI overlay. Do not add faces or eyes to the sphere. Tight still-life worksite photograph of yellow-gloved hands tipping a small crate of reflective glass fragments onto an automated sorting conveyor. A protected hopper, weigh tray, mechanical rollers, old status lamps and material bins fill the scene. Tiny distorted fluorescent-room reflections in the shards. The large sphere is absent or only an indistinct blur; focus on collection, sorting and the tactile reward loop. No readable currency numbers.",
+      "references": [
+        "/Users/mchlrtkwski/BackroomsLore/crackroom_devjournal/docs/assets/journey-inspiration/arrival-v1.png"
+      ],
+      "source": "/Users/mchlrtkwski/.codex/generated_images/01a19f5f-f44c-7fe3-bf5e-3c94c1e5220e/exec-2a89e9ab-bc0f-4316-b964-320f13f04e5e.png",
+      "file": "docs/assets/concept-gallery/deposit-machine-v1.png"
+    },
+    {
+      "id": "tool-counter",
+      "title": "A tool for every obstruction",
+      "category": "Equipment",
+      "prompt": "Use case: stylized-concept. Asset type: one photorealistic cinematic concept photograph for the cooperative game In to the Crackrooms. Use the attached existing artwork ONLY as a world, material, and lighting reference; create a distinctly new composition, not a variation of that shot. This world is a region of the Backrooms that collapsed into a gigantic reflective sphere over a chasm. Researchers employed by a company wear practical yellow protective workwear. Keep worn industrial equipment, ordinary architecture and stale fluorescent light, tactile realistic surfaces, cinematic depth, and an uneasy mundane atmosphere. Landscape 3:2. No typography, captions, logos, watermark or UI overlay. Do not add faces or eyes to the sphere. Front-on equipment counter still-life with a plain hammer, a heavy industrial helical auger, a modest soft-material pick, a fictional reality gun with restrained cyan indicator, and a sealed solvent applicator kit, each separated clearly on a worn wall rack or counter. Spare scaffold clamps below, scuffed safety-yellow paint, service hatch shutter half-open, fluorescent task lighting. Equipment functional and distinct; no people needed, no labels or text. Not a futuristic weapon arsenal.",
+      "references": [
+        "/Users/mchlrtkwski/BackroomsLore/crackroom_devjournal/docs/assets/journey-inspiration/arrival-v1.png"
+      ],
+      "source": "/Users/mchlrtkwski/.codex/generated_images/01a19f5f-f44c-7fe3-bf5e-3c94c1e5220e/exec-8de4904c-05a6-4ab1-8cbb-d27448b10b1d.png",
+      "file": "docs/assets/concept-gallery/tool-counter-v1.png"
+    },
+    {
+      "id": "research-night",
+      "title": "The second pair of eyes",
+      "category": "Equipment",
+      "prompt": "Use case: stylized-concept. Asset type: one photorealistic cinematic concept photograph for the cooperative game In to the Crackrooms. Use the attached existing artwork ONLY as a world, material, and lighting reference; create a distinctly new composition, not a variation of that shot. This world is a region of the Backrooms that collapsed into a gigantic reflective sphere over a chasm. Researchers employed by a company wear practical yellow protective workwear. Keep worn industrial equipment, ordinary architecture and stale fluorescent light, tactile realistic surfaces, cinematic depth, and an uneasy mundane atmosphere. Landscape 3:2. No typography, captions, logos, watermark or UI overlay. Do not add faces or eyes to the sphere. Medium-wide interior view of a research workstation: one researcher at an old desktop computer, a second beside them comparing a recovered folded diagram with the monitor. Display shows a simple geometric tracing exercise in a mundane grey office window, while folders and memo windows sit behind it; avoid legible text. A small tray of sample materials, taped cables, keyboard and desk lamp. Team cooperation and investigation, not a close crop of the same screen as reference; a dark chamber window behind them.",
+      "references": [
+        "/Users/mchlrtkwski/BackroomsLore/crackroom_devjournal/docs/assets/journey-inspiration/arrival-v1.png"
+      ],
+      "source": "/Users/mchlrtkwski/.codex/generated_images/01a19f5f-f44c-7fe3-bf5e-3c94c1e5220e/exec-be888eed-965f-443a-bbb7-4a520c518efd.png",
+      "file": "docs/assets/concept-gallery/research-night-v1.png"
+    },
+    {
+      "id": "maze-warning",
+      "title": "Something at the junction",
+      "category": "Anomalies",
+      "prompt": "Use case: stylized-concept. Asset type: one photorealistic cinematic concept photograph for the cooperative game In to the Crackrooms. Use the attached existing artwork ONLY as a world, material, and lighting reference; create a distinctly new composition, not a variation of that shot. This world is a region of the Backrooms that collapsed into a gigantic reflective sphere over a chasm. Researchers employed by a company wear practical yellow protective workwear. Keep worn industrial equipment, ordinary architecture and stale fluorescent light, tactile realistic surfaces, cinematic depth, and an uneasy mundane atmosphere. Landscape 3:2. No typography, captions, logos, watermark or UI overlay. Do not add faces or eyes to the sphere. Long-lens view down a yellow Backrooms maze corridor at a T-junction. Foreground two researchers have paused behind a pillar. Far away, a distinctive nonhuman low elongated silhouette is partly visible crossing the far junction, with a single flickering overhead fluorescent and disturbed dust suggesting its approach. Threat is readable but not charging the camera; no gore, no jump-scare face, no bright eyes. Emphasize a learnable warning and available side route, restrained suspense.",
+      "references": [
+        "/Users/mchlrtkwski/BackroomsLore/crackroom_devjournal/docs/assets/journey-inspiration/arrival-v1.png"
+      ],
+      "source": "/Users/mchlrtkwski/.codex/generated_images/01a19f5f-f44c-7fe3-bf5e-3c94c1e5220e/exec-0f1260a2-e90f-416d-b4c3-0278e14e759b.png",
+      "file": "docs/assets/concept-gallery/maze-warning-v1.png"
+    },
+    {
+      "id": "unstable-sample",
+      "title": "Almost solid",
+      "category": "Anomalies",
+      "prompt": "Use case: stylized-concept. Asset type: one photorealistic cinematic concept photograph for the cooperative game In to the Crackrooms. Use the attached existing artwork ONLY as a world, material, and lighting reference; create a distinctly new composition, not a variation of that shot. This world is a region of the Backrooms that collapsed into a gigantic reflective sphere over a chasm. Researchers employed by a company wear practical yellow protective workwear. Keep worn industrial equipment, ordinary architecture and stale fluorescent light, tactile realistic surfaces, cinematic depth, and an uneasy mundane atmosphere. Landscape 3:2. No typography, captions, logos, watermark or UI overlay. Do not add faces or eyes to the sphere. Macro-to-midrange material study on a research bench: a common office chair fragment and tile piece are partially sketch-like wire outlines with displaced surfaces, while a handheld reality tool makes one region tangible. A gloved hand and measurement rig show scale. Sharply contrast ordinary solid material, faint doubled edges and incomplete geometry. Lighting predominantly mundane, localized pale-cyan stabilization, no holographic sci-fi room, no text.",
+      "references": [
+        "/Users/mchlrtkwski/BackroomsLore/crackroom_devjournal/docs/assets/journey-inspiration/arrival-v1.png"
+      ],
+      "source": "/Users/mchlrtkwski/.codex/generated_images/01a19f5f-f44c-7fe3-bf5e-3c94c1e5220e/exec-68c8c1d6-e0e5-49fa-85dc-c6de69b365e5.png",
+      "file": "docs/assets/concept-gallery/unstable-sample-v1.png"
+    },
+    {
+      "id": "ordinary-exit",
+      "title": "The door that was always there",
+      "category": "Environment",
+      "prompt": "Use case: stylized-concept. Asset type: one photorealistic cinematic concept photograph for the cooperative game In to the Crackrooms. Use the attached existing artwork ONLY as a world, material, and lighting reference; create a distinctly new composition, not a variation of that shot. This world is a region of the Backrooms that collapsed into a gigantic reflective sphere over a chasm. Researchers employed by a company wear practical yellow protective workwear. Keep worn industrial equipment, ordinary architecture and stale fluorescent light, tactile realistic surfaces, cinematic depth, and an uneasy mundane atmosphere. Landscape 3:2. No typography, captions, logos, watermark or UI overlay. Do not add faces or eyes to the sphere. A nearly empty mundane yellow Backrooms hallway at the end of a long workday. An unremarkable slightly open door admits soft cool light, a solitary researcher standing at a respectful distance considers it, helmet tucked under one arm but face turned away. A worn company cart parked far behind, repeated ceiling lights subtly out of alignment. No paradise vista or explicit ending icon beyond the door. Composition quiet, enigmatic, invitation to notice an opportunity rather than confirmation of an escape.",
+      "references": [
+        "/Users/mchlrtkwski/BackroomsLore/crackroom_devjournal/docs/assets/journey-inspiration/arrival-v1.png"
+      ],
+      "source": "/Users/mchlrtkwski/.codex/generated_images/01a19f5f-f44c-7fe3-bf5e-3c94c1e5220e/exec-099bb4d1-7d7c-4de5-a09d-42826b560b05.png",
+      "file": "docs/assets/concept-gallery/ordinary-exit-v1.png"
+    }
+  ]
+}

@@ -28,6 +28,7 @@ jobs:
           node --check docs/design-revision-four.js
           node --check docs/app.js
           node --check docs/lore.js
+          node --check docs/concept-art.js
           node --check docs/progression-survey.js
       - name: Verify saved-progress migrations
         run: |
