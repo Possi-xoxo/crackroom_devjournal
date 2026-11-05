@@ -82,3 +82,5 @@ node tests/concept-migration.cjs
 ```
 
 The migration checks cover both original journal revisions, custom notes, completed tasks, repeat-load behavior, and the Egg dossier.
+
+The confirmed seven-stage excavation sequence appears in the Egg dossier and Player progression. Untouched older plans migrate to this sequence; customized plans remain editable alongside the current reference table. `docs/design-revision-four.js` holds frozen defaults for safe migration.

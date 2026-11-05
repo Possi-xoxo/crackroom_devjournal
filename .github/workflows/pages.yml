@@ -25,6 +25,7 @@ jobs:
       - name: Check JavaScript syntax
         run: |
           node --check docs/design-content.js
+          node --check docs/design-revision-four.js
           node --check docs/app.js
       - name: Verify saved-progress migrations
         run: node tests/concept-migration.cjs
