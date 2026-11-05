@@ -1,0 +1,46 @@
+{
+  "mode": "Built-in image_gen with existing concept art references",
+  "purpose": "Exploratory scenes for vision, research and progression",
+  "assets": [
+    {
+      "id": "arrival",
+      "prompt": "Use case: stylized-concept. Create a NEW landscape 3:2 cinematic game concept painting for In to the Crackrooms, using the supplied existing concept images as visual/world references, not as layouts to copy. Reference 1 establishes the reflective spherical egg, vast yellow fluorescent Backrooms chamber, chasm, scaffolding, and yellow-suited researchers. Reference 2 establishes decaying architecture, material detail and moody light. Preserve this visual family: painterly realistic materials, immense scale, mundane industrial equipment, warm stale fluorescents and deep atmospheric shadows. No logos, no title typography, no watermarks. This is exploratory art for a development guide, not a finished game screenshot. Scene: the beginning of a workday. Wide establishing view from the arrival landing in the open chamber. A small practical go-kart carrying two yellow-suited researchers has just emerged from a square maze passage. On the same safe landing, clearly stage an automated resource deposit conveyor/hopper and a separate modest equipment counter with wall racks holding a hammer, auger and scaffold parts. The huge reflective glass sphere and precarious scaffold access loom beyond a guarded edge over the chasm. Readable spatial relationship between kart arrival, deposit, shop and egg; the starting facilities are already installed, no construction of a new camp. Ordinary company worksite, quiet anticipation, no readable signs necessary.",
+      "references": [
+        "/Users/mchlrtkwski/BackroomsLore/crackroom_devjournal/docs/assets/egg-inspiration/glass-v1.png",
+        "/Users/mchlrtkwski/BackroomsLore/crackroom_devjournal/docs/assets/egg-inspiration/hotel-v1.png"
+      ],
+      "source": "/Users/mchlrtkwski/.codex/generated_images/01a19f5f-f44c-7fe3-bf5e-3c94c1e5220e/exec-ea5bdd7f-9b14-4f01-a83f-e042ca69f51c.png",
+      "destination": "docs/assets/journey-inspiration/arrival-v1.png"
+    },
+    {
+      "id": "desktop",
+      "prompt": "Use case: stylized-concept. Create a NEW landscape 3:2 cinematic game concept painting for In to the Crackrooms, using the supplied existing concept images as visual/world references, not as layouts to copy. Reference 1 establishes the reflective spherical egg, vast yellow fluorescent Backrooms chamber, chasm, scaffolding, and yellow-suited researchers. Reference 2 establishes decaying architecture, material detail and moody light. Preserve this visual family: painterly realistic materials, immense scale, mundane industrial equipment, warm stale fluorescents and deep atmospheric shadows. No logos, no title typography, no watermarks. This is exploratory art for a development guide, not a finished game screenshot. Scene: a close over-the-shoulder view of the in-game company research desktop on a battered industrial desk beside the chamber. A yellow-gloved hand at mouse and keyboard, bulky monitor fills most of the composition, a soft blurred glimpse of scaffolding and reflective egg outside the workstation. On screen, a plausible fictional mundane company desktop: small folder icons, overlapping memo/email window, a calibration window with four vertical rhythm-input lanes and timed marks, and a half-hidden error dialog revealing an odd folder behind it. Screen must feel like normal office software hiding a puzzle, not a neon hologram or a futuristic command bridge. Sparse restrained interface text only: 'MAIL', 'CALIBRATION', 'RETRY'; avoid paragraphs or illegible fake code. Green-grey desktop, warm fluorescent workspace, visual hierarchy legible enough to inspire UI design.",
+      "references": [
+        "/Users/mchlrtkwski/BackroomsLore/crackroom_devjournal/docs/assets/egg-inspiration/glass-v1.png",
+        "/Users/mchlrtkwski/BackroomsLore/crackroom_devjournal/docs/assets/egg-inspiration/hotel-v1.png"
+      ],
+      "source": "/Users/mchlrtkwski/.codex/generated_images/01a19f5f-f44c-7fe3-bf5e-3c94c1e5220e/exec-0f47f079-eabd-4a80-8954-50790cf1f11a.png",
+      "destination": "docs/assets/journey-inspiration/desktop-v1.png"
+    },
+    {
+      "id": "event-door",
+      "prompt": "Use case: stylized-concept. Create a NEW landscape 3:2 cinematic game concept painting for In to the Crackrooms, using the supplied existing concept images as visual/world references, not as layouts to copy. Reference 1 establishes the reflective spherical egg, vast yellow fluorescent Backrooms chamber, chasm, scaffolding, and yellow-suited researchers. Reference 2 establishes decaying architecture, material detail and moody light. Preserve this visual family: painterly realistic materials, immense scale, mundane industrial equipment, warm stale fluorescents and deep atmospheric shadows. No logos, no title typography, no watermarks. This is exploratory art for a development guide, not a finished game screenshot. Scene: an embedded event door uncovered in the sphere's hotel-like architectural layer. Foreground scaffold, broken curved masonry edge and ordinary wooden door frame. One researcher pauses at the open doorway while a teammate waits on the landing. Through this threshold is an impossible spatial transition: a self-contained pale tiled puzzle room with three simple floor switches, a low railing and an ordinary exit door on the far side, beyond which a sliver of yellow main hallway is visible. Composition clearly suggests entry → event room → hallway return without arrows or text. Strong contrast between warm decayed exterior and cool clean event space. It is a visual proposal, not new canon; no monsters or combat required.",
+      "references": [
+        "/Users/mchlrtkwski/BackroomsLore/crackroom_devjournal/docs/assets/egg-inspiration/glass-v1.png",
+        "/Users/mchlrtkwski/BackroomsLore/crackroom_devjournal/docs/assets/egg-inspiration/hotel-v1.png"
+      ],
+      "source": "/Users/mchlrtkwski/.codex/generated_images/01a19f5f-f44c-7fe3-bf5e-3c94c1e5220e/exec-db9dcc63-0c18-4958-a928-fb818c2f43cc.png",
+      "destination": "docs/assets/journey-inspiration/event-door-v1.png"
+    },
+    {
+      "id": "repeated-day",
+      "prompt": "Use case: stylized-concept. Create a NEW landscape 3:2 cinematic game concept painting for In to the Crackrooms, using the supplied existing concept images as visual/world references, not as layouts to copy. Reference 1 establishes the reflective spherical egg, vast yellow fluorescent Backrooms chamber, chasm, scaffolding, and yellow-suited researchers. Reference 2 establishes decaying architecture, material detail and moody light. Preserve this visual family: painterly realistic materials, immense scale, mundane industrial equipment, warm stale fluorescents and deep atmospheric shadows. No logos, no title typography, no watermarks. This is exploratory art for a development guide, not a finished game screenshot. Scene: an eerie repeated-day discovery in a mundane yellow Backrooms service hallway near the chamber. In the foreground a standing researcher in yellow protective gear notices an intact motionless body in the same work suit slumped by a wall. Clearly matching details: identical asymmetrical tape patch on each left sleeve and matching unusual tool clipped to the belt. Helmet/hood obscures the fallen person's face, no injury or blood, no graphic detail. Deeper in the corridor repeating doors, the same company cart and scattered memo pages create quiet déjà vu. One slightly ajar ordinary door leaks a narrow seam of cool light as a possible opportunity, not a confirmed ending. Suggest the question 'is that me?' using visual matches, no literal text and no supernatural glowing duplicate. Restrained narrative horror and readable environmental clues.",
+      "references": [
+        "/Users/mchlrtkwski/BackroomsLore/crackroom_devjournal/docs/assets/egg-inspiration/glass-v1.png",
+        "/Users/mchlrtkwski/BackroomsLore/crackroom_devjournal/docs/assets/egg-inspiration/hotel-v1.png"
+      ],
+      "source": "/Users/mchlrtkwski/.codex/generated_images/01a19f5f-f44c-7fe3-bf5e-3c94c1e5220e/exec-1ee56c82-813a-4a47-8bb7-bd58ad34109a.png",
+      "destination": "docs/assets/journey-inspiration/repeated-day-v1.png"
+    }
+  ]
+}
