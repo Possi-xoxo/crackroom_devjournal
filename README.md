@@ -86,3 +86,5 @@ The migration checks cover both original journal revisions, custom notes, comple
 The confirmed seven-stage excavation sequence appears in the Egg dossier and Player progression. Untouched older plans migrate to this sequence; customized plans remain editable alongside the current reference table. `docs/design-revision-four.js` holds frozen defaults for safe migration.
 
 Computer Research (`#research`) documents the in-game desktop hub, eleven candidate minigames, research gates, and hidden desktop routes. Expand a program to add design notes; these save locally and travel with JSON exports/restores. This is a design dossier, not a playable implementation of the minigames.
+
+The Egg dossier contains seven original AI-generated layer studies in `docs/assets/egg-inspiration/`, each with an art-direction caption and a full-resolution link. These are exploratory images, not approved production assets. `artwork-layer-inspiration-prompts.json` records the built-in generation prompts and asset paths. Earlier artwork remains under Design history.

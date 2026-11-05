@@ -160,14 +160,66 @@ function vision(){return heading('02 / THE EXPEDITION BRIEF','Arrive. Excavate. 
 <section class="workday-strip"><div class="eyebrow">THE DAILY GAMEPLAY LOOP</div><ol><li><b>01</b> Go-kart arrival</li><li><b>02</b> Assignment & daily equipment</li><li><b>03</b> Excavate, deposit & research</li><li><b>04</b> Realify, uncover & enter events</li><li><b>05</b> Return to the hallway & advance</li></ol><p>The <a href="#research">Computer Research desktop</a> hides progression challenges inside company software. The collection system feeds shared cash; the chamber store supplies daily gear. Replay-day anomalies may repeat scripts, but they do not erase store or research progression.</p></section>
 <section class="card prototype-callout"><div><span class="eyebrow">THE EXCAVATION PATH</span><h3>From the first glass shard to a final choice.</h3><p>Work through an editable player roadmap, the confirmed layer/tool order, research minigames, and possible ending routes.</p></div><a href="#progression" class="button">Player progression ↗</a></section>
 <section class="card economy-questions"><span class="eyebrow">OPEN RULES TO SETTLE</span><details open><summary>What resets, and what survives?</summary><p>Daily purchased items reset each morning. Store and research progression survive day-reset anomalies. Unspent cash, scaffolding, excavation changes, and collected clues need separate rules. An anomaly must not force the team to repeat already-completed research.</p></details><details><summary>How does the team recover quickly?</summary><p>Keep previously unlocked tools accessible in the store. A baseline kit, allowance, or reacquisition policy could prevent a broke team from stalling; no option or price is fixed yet.</p></details><details><summary>Who spends the shared cash?</summary><p>Unrestricted spending, a designated buyer, or team approval remain possible. Select a rule that supports the intended cooperation.</p></details></section>`;}
-function egg(){return heading('THE EGG / LIVING DESIGN DOSSIER','Glass gives way to something living.','Seven stages. Material-specific tools. A fleshy, irritated core.')+conceptFigure()+`
-<div class="notice" style="margin-top:22px"><b>Confirmed sequence:</b> six coverings lead to the fleshy core. The glass-and-tissue artwork above is an earlier material study; it does not depict the intermediate Backrooms layers.</div>
+const eggArtStudies = [
+  {
+    "id": "glass",
+    "title": "Reflective glass exterior",
+    "tool": "Hammer · scaffold access",
+    "focus": "Mirror-like reflections, fractured facets, and a small work platform against the immense round shell. Explore how reflected rooms can confuse the eye without hiding the breakable surface.",
+    "alt": "A researcher hammers a fractured reflective glass sphere from a scaffold above a chasm."
+  },
+  {
+    "id": "utility",
+    "title": "Abandoned Utility Halls",
+    "tool": "Hard-tool auger",
+    "focus": "Dense pipe routes and thick concrete create a heavy, resistant layer. Rust, dust, and work lights give the auger a convincing material to bite into.",
+    "alt": "An auger cuts into concrete and dense industrial piping embedded in a curved spherical layer."
+  },
+  {
+    "id": "poolrooms",
+    "title": "Poolrooms",
+    "tool": "Reality-gun research",
+    "focus": "Cool water and tiled arches contrast with missing geometry. Use ghost outlines and restored solid surfaces to make realification legible.",
+    "alt": "A reality gun restores tiled Poolrooms architecture beside ghostly outlined geometry."
+  },
+  {
+    "id": "office",
+    "title": "Abandoned Office",
+    "tool": "Soft-tool pick",
+    "focus": "Frayed acoustic panels, carpet, paper, and partition walls suggest a softer excavation response. Repeating desks and stale fluorescent lighting preserve the mundane office atmosphere.",
+    "alt": "A researcher with a pick works beside torn office partitions, cubicles, paper stacks, and old monitors within the sphere."
+  },
+  {
+    "id": "hotel",
+    "title": "Terror Hotel",
+    "tool": "Hard-tool auger · reused",
+    "focus": "Burgundy carpet, brass sconces, and repeated dark doors set a different mood around dense masonry. The returning auger connects the visual change to an established material rule.",
+    "alt": "A scaffold-mounted auger excavates a curved hotel layer with burgundy corridors and repeated doors."
+  },
+  {
+    "id": "threshold",
+    "title": "Threshold",
+    "tool": "Solvent research",
+    "focus": "Raking light catches translucent glue and curling paper fibers. The small act of peeling wallpaper should feel strange at the scale of the sphere.",
+    "alt": "A researcher applies solvent to huge strips of wallpaper and translucent adhesive peeling from a curved surface."
+  },
+  {
+    "id": "core",
+    "title": "Core",
+    "tool": "Reveal after the final peel",
+    "focus": "Soft folds and irritated surface tension replace architectural repetition. Keep the researcher tiny and the response restrained: the material itself should suggest something alive.",
+    "alt": "A tiny researcher faces a vast fleshy center bordered by peeled wallpaper and adhesive film."
+  }
+];
+function eggArtGallery(){return `<section class="egg-art-gallery" aria-labelledby="egg-art-title"><div class="section-heading"><div><div class="eyebrow">ART DIRECTION / SEVEN LAYER STUDIES</div><h2 id="egg-art-title">A visual language for every layer</h2><p class="small muted">AI-generated concept studies for materials, lighting, scale, and tool interaction. These are inspiration, not finalized layouts or asset designs. Select an image to open the full-resolution PNG.</p></div></div><div class="egg-art-grid">${eggArtStudies.map((art,i)=>`<figure class="card egg-art-card"><a href="assets/egg-inspiration/${art.id}-v1.png" target="_blank" rel="noopener" aria-label="Open full-resolution ${esc(art.title)} concept art"><img src="assets/egg-inspiration/${art.id}-v1.png" alt="${esc(art.alt)}" width="1536" height="1024" loading="${i<2?'eager':'lazy'}" decoding="async"></a><figcaption><span class="phase-no">STAGE ${String(i+1).padStart(2,'0')}</span><h3>${esc(art.title)}</h3><span class="art-tool">${esc(art.tool)}</span><p>${esc(art.focus)}</p><a class="art-full-link" href="assets/egg-inspiration/${art.id}-v1.png" target="_blank" rel="noopener">View full image ↗</a></figcaption></figure>`).join('')}</div></section>`;}
+function egg(){return heading('THE EGG / LIVING DESIGN DOSSIER','Glass gives way to something living.','Seven stages. Material-specific tools. A fleshy, irritated core.')+eggArtGallery()+`
+<div class="notice" style="margin-top:22px"><b>Confirmed sequence:</b> six coverings lead to the fleshy core. The studies above explore each stage separately; their geometry and scale remain open for art development.</div>
 ${layerTable()}
 <p class="small muted" style="margin:18px 0">Reality-gun and solvent research take place through the <a href="#research">Computer Research hub ↗</a>.</p><div class="egg-path"><div><span>01 / ACCESS</span><h3>Hammer & scaffolding</h3><p>Shatter reflective glass and build access around the sphere.</p></div><div><span>03 / POOLROOMS</span><h3>Reality-gun research</h3><p>Phase obstructing geometry back into existence before clearing it.</p></div><div><span>06 / THRESHOLD</span><h3>Solvent research</h3><p>Dissolve adhesive bonds and peel away the wallpaper.</p></div><div><span>07 / CORE</span><h3>Expose irritated flesh</h3><p>Beyond the final covering, the living center is revealed.</p></div></div>
 <section class="vision-grid" style="margin:24px 0"><article class="card"><span class="tag">THREAT DESIGN</span><h3>Know what is approaching</h3><p>Maze monsters and egg manifestations need unique silhouettes, sound cues, and learnable avoidance rules. A player should be able to recognize the incoming threat and respond before contact.</p></article><article class="card"><span class="tag">DISCOVERY DESIGN</span><h3>Not every emergence is a fight</h3><p>A carcass can be evidence. Your own dead body can make a repeated day feel wrong. Event scripts and returning doors can point toward secret endings without erasing research progress.</p></article></section>
 <p class="small muted" style="margin-bottom:20px">Editable development notes below. Enemy names and exact counterplay are proposals; the layer structure and progression-preservation rules reflect the current direction.</p>
 <div class="note-grid egg-notes">${Object.entries(eggPrompts).map(([key,p])=>`<section class="card"><label for="egg-${key}">${p[0]}</label><p class="small muted">${p[1]}</p><textarea id="egg-${key}" data-egg="${key}" maxlength="50000">${esc(state.egg[key])}</textarea></section>`).join('')}</div>
-<details class="card art-history"><summary>Earlier concept art — design history</summary><p class="small muted">The junk-covered sphere was an earlier visual direction, superseded by the glass-and-tissue study above.</p><img src="assets/crackrooms-sphere-v2.png" loading="lazy" alt="Earlier junk-covered spherical egg concept, retained as design history."></details>`;}
+<details class="card art-history"><summary>Earlier concept art — design history</summary><p class="small muted">The glass-and-tissue study predates the intermediate layers. The junk-covered sphere below it was an earlier exterior direction. Both remain here as visual development history.</p>${conceptFigure()}<img src="assets/crackrooms-sphere-v2.png" loading="lazy" alt="Earlier junk-covered spherical egg concept, retained as design history."></details>`;}
 function layerTable(){return `<section class="card" style="margin:24px 0"><div class="eyebrow">CONFIRMED EXCAVATION SEQUENCE</div><h2 style="margin:8px 0 18px">Seven stages to the center</h2><div class="table-scroll"><table><thead><tr><th scope="col">Stage</th><th scope="col">Layer</th><th scope="col">Obstacle and progression</th></tr></thead><tbody>${currentDesign.layers.map((layer,i)=>`<tr><td>${i+1}</td><th scope="row">${esc(layer.title)}</th><td>${esc(layer.obstacle)}</td></tr>`).join('')}</tbody></table></div></section>`;}
 function progression(){return heading('PLAYER PROGRESSION / WORKING ROADMAP','From first shift to final exit.','The confirmed layer sequence, followed by your editable player plan. Stages are milestones, not calendar days.','<button class="button" data-action="new-stage">+ Add a stage</button>')+`
 <div class="notice"><b>Progression promise:</b> collection and discoveries unlock research; research expands the store. Replay-day anomalies preserve that advancement. Daily items still reset each morning.</div>
