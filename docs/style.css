@@ -22,3 +22,5 @@ input:focus-visible,textarea:focus-visible,select:focus-visible{outline:2px soli
  body,.card,.entry,.stats,.notice,.prompt-card,.prototype-callout,.egg-path>div,input,textarea,select,.note-grid textarea,.next-input{background:#fff!important;color:#20251b!important}
  .vision-lead p,.vision-grid p,.prototype-callout p,.egg-path p{color:#3e4934}
 }
+
+.economy-section{margin:28px 0}.economy-section .section-heading .eyebrow,.economy-questions>.eyebrow{color:var(--accent)}.economy-section h2{margin-top:8px}.economy-questions{margin-top:20px}.economy-questions details{border-top:1px solid var(--line);padding:15px 0}.economy-questions details:first-of-type{margin-top:15px}.economy-questions details:last-child{padding-bottom:0}.economy-questions summary{cursor:pointer;font-family:var(--display);font-size:16px}.economy-questions summary:focus-visible{outline:2px solid var(--accent);outline-offset:5px}.economy-questions p{color:var(--muted);font-size:13px;line-height:1.8;margin-top:10px;max-width:850px}
