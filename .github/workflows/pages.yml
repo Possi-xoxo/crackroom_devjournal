@@ -27,8 +27,11 @@ jobs:
           node --check docs/design-content.js
           node --check docs/design-revision-four.js
           node --check docs/app.js
+          node --check docs/progression-survey.js
       - name: Verify saved-progress migrations
-        run: node tests/concept-migration.cjs
+        run: |
+          node tests/concept-migration.cjs
+          node tests/progression-survey.cjs
       - name: Configure Pages
         uses: actions/configure-pages@v5
       - name: Upload the static journal
