@@ -1,0 +1,84 @@
+{
+  "mode": "builtin",
+  "date": "2026-11-05",
+  "images": [
+    {
+      "id": "utility-breach",
+      "title": "Through the pipework",
+      "category": "Fieldwork",
+      "scene": "Inside the sphere's exposed Abandoned Utility Halls layer, a side-on medium-wide shot of two researchers using a heavy helical hard-tool auger to break through dense masonry and tangled industrial pipes. One operates the grounded drill while the other directs a work lamp and collects broken concrete. Curved, compressed corridor cross-sections are embedded in the excavation wall. Warm tungsten task light against cold green utility fluorescents, mineral dust, believable bracing and hoses. No giant sphere in the background.",
+      "alt": "Two researchers brace a heavy auger against compressed masonry and pipework inside the sphere.",
+      "caption": "The Utility Halls turn excavation into a problem of access and force. Dense piping and concrete make the auger a clear step beyond the starting hammer.",
+      "question": "How does the team recognize a useful seam among pipes that may still be active?",
+      "prompt": "Use case: stylized-concept. Create one new photorealistic cinematic concept artwork for In to the Crackrooms, landscape 3:2. The supplied image is a reference ONLY for material realism, practical yellow company researcher suits and worn industrial equipment, not composition. This is a collapsed Backrooms region excavated by a company research team; keep ordinary architecture becoming impossible, tactile realistic materials, uneasy mundane mood. New composition, no text, logos, UI overlay, watermark, or collage. Inside the sphere's exposed Abandoned Utility Halls layer, a side-on medium-wide shot of two researchers using a heavy helical hard-tool auger to break through dense masonry and tangled industrial pipes. One operates the grounded drill while the other directs a work lamp and collects broken concrete. Curved, compressed corridor cross-sections are embedded in the excavation wall. Warm tungsten task light against cold green utility fluorescents, mineral dust, believable bracing and hoses. No giant sphere in the background.",
+      "reference": "/Users/mchlrtkwski/BackroomsLore/crackroom_devjournal/docs/assets/concept-gallery/scaffold-crew-v1.png",
+      "source": "/Users/mchlrtkwski/.codex/generated_images/01a19f5f-f44c-7fe3-bf5e-3c94c1e5220e/exec-ae4ae02d-c08f-4f15-9a9a-aa67cf5467e6.png",
+      "file": "docs/assets/concept-gallery/utility-breach-v1.png"
+    },
+    {
+      "id": "poolroom-alignment",
+      "title": "A floor that will not stay",
+      "category": "Anomalies",
+      "scene": "A low water-level wide shot inside a silent turquoise Poolrooms excavation pocket. A researcher on solid tile aims a practical reality tool toward a short broken bridge of tiled floor; the near tiles become solid while the far section remains fine displaced outlines. Their teammate waits with a collection crate on safe ground. Pale blue water reflections, tall cream columns ending at impossible angles, soft humid haze, restrained cyan stabilization. Distinct from a laboratory sample close-up. No monsters.",
+      "alt": "A researcher stabilizes missing tiled floor sections over turquoise water while a teammate waits on solid ground.",
+      "caption": "The Poolrooms make unstable geometry a spatial obstacle. This proposal explores how a temporary solid surface might communicate the reality tool’s effect.",
+      "question": "Should stabilization only enable excavation, or can it briefly create safe traversal?",
+      "prompt": "Use case: stylized-concept. Create one new photorealistic cinematic concept artwork for In to the Crackrooms, landscape 3:2. The supplied image is a reference ONLY for material realism, practical yellow company researcher suits and worn industrial equipment, not composition. This is a collapsed Backrooms region excavated by a company research team; keep ordinary architecture becoming impossible, tactile realistic materials, uneasy mundane mood. New composition, no text, logos, UI overlay, watermark, or collage. A low water-level wide shot inside a silent turquoise Poolrooms excavation pocket. A researcher on solid tile aims a practical reality tool toward a short broken bridge of tiled floor; the near tiles become solid while the far section remains fine displaced outlines. Their teammate waits with a collection crate on safe ground. Pale blue water reflections, tall cream columns ending at impossible angles, soft humid haze, restrained cyan stabilization. Distinct from a laboratory sample close-up. No monsters.",
+      "reference": "/Users/mchlrtkwski/BackroomsLore/crackroom_devjournal/docs/assets/concept-gallery/scaffold-crew-v1.png",
+      "source": "/Users/mchlrtkwski/.codex/generated_images/01a19f5f-f44c-7fe3-bf5e-3c94c1e5220e/exec-cb50d30b-14e9-4f73-b7df-e6cf59dbf0a5.png",
+      "file": "docs/assets/concept-gallery/poolroom-alignment-v1.png"
+    },
+    {
+      "id": "office-fold",
+      "title": "An office turned inward",
+      "category": "Environment",
+      "scene": "Architectural photograph deep in the Abandoned Office layer: cubicle partitions, filing drawers, ceiling tiles and carpet are folded concentrically into a curved excavation wall. A small yellow-suited researcher uses a modest soft-material pick at the lower edge; another studies a desk embedded vertically overhead. Wide static composition, sickly neutral office fluorescents, dusty beige and faded green, quiet impossible compression rather than an explosion. No readable documents, no sphere visible.",
+      "alt": "Office cubicles, desks and carpet curl inward around a small excavation team using a pick.",
+      "caption": "Recognizable office materials preserve traces of the collapsed district. Soft partitions and carpet suggest a different excavation rhythm from the Utility Halls.",
+      "question": "Which intact workplace detail would make this layer feel inhabited before the collapse?",
+      "prompt": "Use case: stylized-concept. Create one new photorealistic cinematic concept artwork for In to the Crackrooms, landscape 3:2. The supplied image is a reference ONLY for material realism, practical yellow company researcher suits and worn industrial equipment, not composition. This is a collapsed Backrooms region excavated by a company research team; keep ordinary architecture becoming impossible, tactile realistic materials, uneasy mundane mood. New composition, no text, logos, UI overlay, watermark, or collage. Architectural photograph deep in the Abandoned Office layer: cubicle partitions, filing drawers, ceiling tiles and carpet are folded concentrically into a curved excavation wall. A small yellow-suited researcher uses a modest soft-material pick at the lower edge; another studies a desk embedded vertically overhead. Wide static composition, sickly neutral office fluorescents, dusty beige and faded green, quiet impossible compression rather than an explosion. No readable documents, no sphere visible.",
+      "reference": "/Users/mchlrtkwski/BackroomsLore/crackroom_devjournal/docs/assets/concept-gallery/scaffold-crew-v1.png",
+      "source": "/Users/mchlrtkwski/.codex/generated_images/01a19f5f-f44c-7fe3-bf5e-3c94c1e5220e/exec-10cc812e-09e3-4e1f-8f62-f20c7e0e02d2.png",
+      "file": "docs/assets/concept-gallery/office-fold-v1.png"
+    },
+    {
+      "id": "embedded-event-door",
+      "title": "A room inside the wound",
+      "category": "Environment",
+      "scene": "Oblique medium-wide view from a narrow scaffold beside a spherical excavation face made of packed hotel architecture. A perfectly ordinary freestanding hotel door has been uncovered inside the material. Through the open doorway is a softly lit impossible puzzle room with three raised floor platforms and a hanging lamp, spatially much larger than the thickness of the cut. Two yellow-suited researchers stand at the threshold, one holds the door while the other peers in. Burgundy hotel carpet, aged brass, amber corridor light against pale lilac event-space light. Show discovery and uncertainty, not a normal corridor door or a magic swirling portal.",
+      "alt": "Researchers uncover an ordinary hotel door in the excavation face, opening onto a much larger puzzle room.",
+      "caption": "An embedded door interrupts the digging route with an event space. The ordinary frame makes the impossible depth behind it more unsettling.",
+      "question": "What clue tells players this excursion will return them to the main hallway?",
+      "prompt": "Use case: stylized-concept. Create one new photorealistic cinematic concept artwork for In to the Crackrooms, landscape 3:2. The supplied image is a reference ONLY for material realism, practical yellow company researcher suits and worn industrial equipment, not composition. This is a collapsed Backrooms region excavated by a company research team; keep ordinary architecture becoming impossible, tactile realistic materials, uneasy mundane mood. New composition, no text, logos, UI overlay, watermark, or collage. Oblique medium-wide view from a narrow scaffold beside a spherical excavation face made of packed hotel architecture. A perfectly ordinary freestanding hotel door has been uncovered inside the material. Through the open doorway is a softly lit impossible puzzle room with three raised floor platforms and a hanging lamp, spatially much larger than the thickness of the cut. Two yellow-suited researchers stand at the threshold, one holds the door while the other peers in. Burgundy hotel carpet, aged brass, amber corridor light against pale lilac event-space light. Show discovery and uncertainty, not a normal corridor door or a magic swirling portal.",
+      "reference": "/Users/mchlrtkwski/BackroomsLore/crackroom_devjournal/docs/assets/concept-gallery/scaffold-crew-v1.png",
+      "source": "/Users/mchlrtkwski/.codex/generated_images/01a19f5f-f44c-7fe3-bf5e-3c94c1e5220e/exec-9333147b-cac5-4f9a-b1da-17467c5c8e55.png",
+      "file": "docs/assets/concept-gallery/embedded-event-door-v1.png"
+    },
+    {
+      "id": "threshold-peel",
+      "title": "The last ordinary surface",
+      "category": "Fieldwork",
+      "scene": "Intimate close-up of gloved researcher hands applying a practical solvent applicator and peeling a large sheet of faded yellow floral wallpaper and translucent adhesive film from a curved surface. Underneath is smooth softly ridged muted rose organic tissue, suggesting breathing without graphic gore. A second work light catches the adhesive stretching into thin strings. Research tray and rolled wallpaper in foreground, extreme tactile material detail, tight framing, warm pale light, subtle unease. No wound, organs, exposed bone or blood spray.",
+      "alt": "Gloved hands peel wallpaper and adhesive from a curved surface to reveal softly ridged organic tissue.",
+      "caption": "Solvent research changes the final action from striking to peeling. A familiar decorative surface becomes the thin boundary around something alive.",
+      "question": "What sound or movement should make the team hesitate before removing the next strip?",
+      "prompt": "Use case: stylized-concept. Create one new photorealistic cinematic concept artwork for In to the Crackrooms, landscape 3:2. The supplied image is a reference ONLY for material realism, practical yellow company researcher suits and worn industrial equipment, not composition. This is a collapsed Backrooms region excavated by a company research team; keep ordinary architecture becoming impossible, tactile realistic materials, uneasy mundane mood. New composition, no text, logos, UI overlay, watermark, or collage. Intimate close-up of gloved researcher hands applying a practical solvent applicator and peeling a large sheet of faded yellow floral wallpaper and translucent adhesive film from a curved surface. Underneath is smooth softly ridged muted rose organic tissue, suggesting breathing without graphic gore. A second work light catches the adhesive stretching into thin strings. Research tray and rolled wallpaper in foreground, extreme tactile material detail, tight framing, warm pale light, subtle unease. No wound, organs, exposed bone or blood spray.",
+      "reference": "/Users/mchlrtkwski/BackroomsLore/crackroom_devjournal/docs/assets/concept-gallery/scaffold-crew-v1.png",
+      "source": "/Users/mchlrtkwski/.codex/generated_images/01a19f5f-f44c-7fe3-bf5e-3c94c1e5220e/exec-37e3ecc2-4d12-4fb2-9e20-c9fee280cd81.png",
+      "file": "docs/assets/concept-gallery/threshold-peel-v1.png"
+    },
+    {
+      "id": "core-listening",
+      "title": "It answers the instruments",
+      "category": "Anomalies",
+      "scene": "Wide cinematic photograph of a small research platform overlooking a massive rounded fleshy core newly exposed beneath torn wallpaper rims. The core is smooth pale dusky pink with subtle contraction folds, non-graphic and without faces, eyes, mouth, bones or gore. Two yellow-suited researchers have stopped working; one holds a contact sensor on a long probe while another watches an analog instrument with an unreadable oscillating needle. Their small work lights graze the curved living surface, surrounding chamber falls into dark violet haze. Emphasize stillness, scale and the suggestion that the sphere is responding to observation; no attacking monster.",
+      "alt": "Researchers pause beside the exposed rounded core while a probe and analog instrument register a response.",
+      "caption": "At the center, excavation becomes an encounter. A response to the team’s instruments could connect agitation, research and the question of what they have uncovered.",
+      "question": "What observable response would distinguish curiosity, distress and an imminent spawn?",
+      "prompt": "Use case: stylized-concept. Create one new photorealistic cinematic concept artwork for In to the Crackrooms, landscape 3:2. The supplied image is a reference ONLY for material realism, practical yellow company researcher suits and worn industrial equipment, not composition. This is a collapsed Backrooms region excavated by a company research team; keep ordinary architecture becoming impossible, tactile realistic materials, uneasy mundane mood. New composition, no text, logos, UI overlay, watermark, or collage. Wide cinematic photograph of a small research platform overlooking a massive rounded fleshy core newly exposed beneath torn wallpaper rims. The core is smooth pale dusky pink with subtle contraction folds, non-graphic and without faces, eyes, mouth, bones or gore. Two yellow-suited researchers have stopped working; one holds a contact sensor on a long probe while another watches an analog instrument with an unreadable oscillating needle. Their small work lights graze the curved living surface, surrounding chamber falls into dark violet haze. Emphasize stillness, scale and the suggestion that the sphere is responding to observation; no attacking monster.",
+      "reference": "/Users/mchlrtkwski/BackroomsLore/crackroom_devjournal/docs/assets/concept-gallery/scaffold-crew-v1.png",
+      "source": "/Users/mchlrtkwski/.codex/generated_images/01a19f5f-f44c-7fe3-bf5e-3c94c1e5220e/exec-98342d1f-653c-42db-8d00-d758d9e88357.png",
+      "file": "docs/assets/concept-gallery/core-listening-v1.png"
+    }
+  ]
+}
