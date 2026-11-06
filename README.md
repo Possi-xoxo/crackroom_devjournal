@@ -15,7 +15,7 @@ docs/
   assets/             # Original and revised concept artwork
   .nojekyll           # Serve as a plain static website
 .github/workflows/
-  pages.yml           # Validate and deploy docs/ to GitHub Pages
+  pages.yml           # Validate journal syntax and saved-progress migrations
 tests/
   concept-migration.cjs
 artwork-edit-prompt.txt
@@ -23,20 +23,15 @@ artwork-edit-prompt.txt
 
 ## Publish with GitHub Pages
 
-The included workflow publishes only `docs/`, placing the journal at the root of this repository's Pages site. All asset URLs are relative and navigation uses URL fragments, so a project subpath works without rewrites.
+The repository uses GitHub's branch-based publishing to serve only `docs/`. All asset URLs are relative and navigation uses URL fragments, so the journal works at its project subpath:
 
-One-time repository setup:
+https://possi-xoxo.github.io/crackroom_devjournal/
 
-1. Open **Settings → Pages** in this repository.
-2. Under **Build and deployment**, choose **GitHub Actions** as the source.
-3. Open **Actions → Deploy journal to GitHub Pages → Run workflow** and run it on `main`.
-4. Wait for the deployment to finish. Use the URL reported by the deployment; the expected standard URL is `https://possi-xoxo.github.io/crackroom_devjournal/`.
+Repository setup is **Settings → Pages → Deploy from a branch → main → /docs**. Pushes to `main` publish through GitHub's **pages build and deployment** workflow.
 
-After setup, changes pushed to `docs/`, the migration tests, or the workflow on `main` trigger deployment automatically. The workflow checks JavaScript syntax and saved-progress migrations before uploading the static files.
+The separate **Validate journal** workflow in `.github/workflows/pages.yml` checks JavaScript syntax and saved-progress migrations on relevant pushes. It does not upload or deploy the site. Validation and branch publishing run independently; run the documented local checks before pushing. Keeping a single publishing route avoids concurrent Pages deployment conflicts.
 
-GitHub Pages availability for a private repository depends on the account's plan. This repository does not change its own visibility or enable Pages automatically. See [GitHub's Pages workflow documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages).
-
-Alternatively, GitHub Pages supports **Deploy from a branch → main → /docs**. If you choose that route, disable the Actions workflow to avoid maintaining two publishing routes.
+GitHub Pages availability for a private repository depends on the account's plan. This repository does not change its own visibility or enable Pages automatically.
 
 ## Preview locally
 

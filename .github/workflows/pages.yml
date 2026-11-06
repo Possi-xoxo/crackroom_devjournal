@@ -1,4 +1,4 @@
-name: Deploy journal to GitHub Pages
+name: Validate journal
 
 on:
   push:
@@ -13,11 +13,11 @@ permissions:
   contents: read
 
 concurrency:
-  group: github-pages
+  group: journal-validation
   cancel-in-progress: false
 
 jobs:
-  validate-and-upload:
+  validate:
     runs-on: ubuntu-latest
     steps:
       - name: Check out the repository
@@ -34,23 +34,3 @@ jobs:
         run: |
           node tests/concept-migration.cjs
           node tests/progression-survey.cjs
-      - name: Configure Pages
-        uses: actions/configure-pages@v5
-      - name: Upload the static journal
-        uses: actions/upload-pages-artifact@v4
-        with:
-          path: docs
-
-  deploy:
-    needs: validate-and-upload
-    runs-on: ubuntu-latest
-    permissions:
-      pages: write
-      id-token: write
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
