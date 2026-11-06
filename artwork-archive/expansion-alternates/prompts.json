@@ -1,0 +1,64 @@
+{
+  "mode": "Built-in image_gen",
+  "date": "2026-11-05",
+  "purpose": "Six alternate concept studies retained separately after the original chat resumed and completed the requested gallery expansion.",
+  "continuity": {
+    "reviewedArtwork": "docs/assets/concept-gallery/scaffold-crew-v1.png",
+    "designSources": [
+      "docs/design-content.js",
+      "artwork-layer-inspiration-prompts.json",
+      "artwork-concept-gallery-prompts.json"
+    ],
+    "method": "Existing artwork inspected; its visual direction and confirmed design carried into text prompts. No image attached to generation calls."
+  },
+  "images": [
+    {
+      "id": "utility-bore",
+      "title": "Through the service wall",
+      "category": "Fieldwork",
+      "prompt": "Use case: stylized-concept. Asset type: one finished cinematic concept artwork for the cooperative game In to the Crackrooms. Existing project art establishes a photorealistic, tactile industrial Backrooms world: stale yellow fluorescent lights, worn practical equipment, company-employed researchers in yellow protective workwear, an immense spherical imploded region suspended above a chasm. Keep that continuity, but create a distinct new composition. Landscape 3:2, 1536x1024. Restrained atmospheric realism, strong readable shapes, detailed material surfaces, mundane architecture made unsettling. No typography, captions, logos, watermark or UI. No faces, eyes or mouth on the sphere. This is exploratory art, not a mechanics diagram. View from INSIDE a freshly opened narrow cylindrical bore through the Abandoned Utility Halls layer, looking outward toward a scaffold and a sliver of the curved reflective shell above a vast void. The near walls are compressed concrete, severed copper pipes and dense conduits arranged in curved strata. Two yellow-suited researchers work at the bore mouth: one guides a heavy helical mechanical auger mounted on a braced stand while the other inspects a core sample tray. Camera at pipe height, strong circular frame, warm dust caught in practical work lights and cold distant haze. Functional equipment, supported floor, no laser weapons. Focus on the density and scale of excavating an imploded service infrastructure.",
+      "source": "/Users/mchlrtkwski/.codex/generated_images/01a1ae36-210c-7540-a417-73667583554c/exec-ae112139-113f-42f1-9ffa-0f36e30e97e6.png",
+      "file": "artwork-archive/expansion-alternates/utility-bore-v1.png"
+    },
+    {
+      "id": "poolroom-waterline",
+      "title": "A waterline that will not agree",
+      "category": "Anomalies",
+      "prompt": "Use case: stylized-concept. Asset type: one finished cinematic concept artwork for the cooperative game In to the Crackrooms. Existing project art establishes a photorealistic, tactile industrial Backrooms world: stale yellow fluorescent lights, worn practical equipment, company-employed researchers in yellow protective workwear, an immense spherical imploded region suspended above a chasm. Keep that continuity, but create a distinct new composition. Landscape 3:2, 1536x1024. Restrained atmospheric realism, strong readable shapes, detailed material surfaces, mundane architecture made unsettling. No typography, captions, logos, watermark or UI. No faces, eyes or mouth on the sphere. This is exploratory art, not a mechanics diagram. Low camera at the edge of a shallow turquoise pool inside an exposed Poolrooms stratum. White tiled arches recede in a diagonal rhythm, but one blocked arch and its reflected waterline split into sketch-like offset outlines and missing geometry. A yellow-suited researcher stands on a dry grated platform using a restrained handheld reality tool to make a small part of the obstructing tile fully tangible. A teammate watches the tile boundary. Huge curved excavated rim glimpsed in the far side opening establishes this architecture belongs inside a sphere. Humid diffused light, turquoise and chalk white against workwear yellow; localized faint cyan, no cyberpunk neon. The misaligned reflection is the main unsettling discovery, not a monster.",
+      "source": "/Users/mchlrtkwski/.codex/generated_images/01a1ae36-210c-7540-a417-73667583554c/exec-b781b040-ab69-4a7e-8064-e084ef6d7035.png",
+      "file": "artwork-archive/expansion-alternates/poolroom-waterline-v1.png"
+    },
+    {
+      "id": "archive-event",
+      "title": "The room filed inside the wall",
+      "category": "Environment",
+      "prompt": "Use case: stylized-concept. Asset type: one finished cinematic concept artwork for the cooperative game In to the Crackrooms. Existing project art establishes a photorealistic, tactile industrial Backrooms world: stale yellow fluorescent lights, worn practical equipment, company-employed researchers in yellow protective workwear, an immense spherical imploded region suspended above a chasm. Keep that continuity, but create a distinct new composition. Landscape 3:2, 1536x1024. Restrained atmospheric realism, strong readable shapes, detailed material surfaces, mundane architecture made unsettling. No typography, captions, logos, watermark or UI. No faces, eyes or mouth on the sphere. This is exploratory art, not a mechanics diagram. An uncovered plain office door embedded in a compressed curved layer of soft acoustic board, paper and torn carpet opens onto an impossibly deep records room. Camera at the threshold, three-quarter view: foreground shows a yellow-suited researcher's gloved hand with a modest soft-material pick lowered beside loosened fibers, the middle shows the ordinary doorframe, beyond it rows of tall rolling archive shelves and one illuminated empty examination table. Hanging folders and paper boxes have blank unmarked tabs. A second ordinary door is barely visible at the far end. Geometry quietly too deep for the space, stale green-beige fluorescent palette, no portal glow. Explore a potential hidden puzzle/event room without depicting an answer, prize or confirmed ending.",
+      "source": "/Users/mchlrtkwski/.codex/generated_images/01a1ae36-210c-7540-a417-73667583554c/exec-9e80e7a4-5e24-4426-bbd8-cd8600d6c123.png",
+      "file": "artwork-archive/expansion-alternates/archive-event-v1.png"
+    },
+    {
+      "id": "hotel-service-loop",
+      "title": "Behind the guest corridor",
+      "category": "Environment",
+      "prompt": "Use case: stylized-concept. Asset type: one finished cinematic concept artwork for the cooperative game In to the Crackrooms. Existing project art establishes a photorealistic, tactile industrial Backrooms world: stale yellow fluorescent lights, worn practical equipment, company-employed researchers in yellow protective workwear, an immense spherical imploded region suspended above a chasm. Keep that continuity, but create a distinct new composition. Landscape 3:2, 1536x1024. Restrained atmospheric realism, strong readable shapes, detailed material surfaces, mundane architecture made unsettling. No typography, captions, logos, watermark or UI. No faces, eyes or mouth on the sphere. This is exploratory art, not a mechanics diagram. A diagonal architectural view from a dim Terror Hotel service landing into two connected corridors: one lined with faded burgundy carpet and repeated guest doors, the other an exposed masonry maintenance passage that seems to curve back into the same landing. A single yellow-suited researcher has set down the same practical hard-tool helical auger used in the utility layer beside a partially excavated masonry wall, observing the spatial inconsistency. A laundry cart provides an ordinary landmark visible through the loop. Tarnished brass wall sconces, exposed pipes, dust, amber tungsten pools with deep cool shadows. Curved torn outer edge and scaffold beyond indicate embedded spherical stratum. No numbers or door labels, no visible monster, no supernatural glowing doorway.",
+      "source": "/Users/mchlrtkwski/.codex/generated_images/01a1ae36-210c-7540-a417-73667583554c/exec-dd663c90-dcd4-4ac2-bdf6-d60922c3dbee.png",
+      "file": "artwork-archive/expansion-alternates/hotel-service-loop-v1.png"
+    },
+    {
+      "id": "solvent-seam",
+      "title": "The last adhesive bond",
+      "category": "Fieldwork",
+      "prompt": "Use case: stylized-concept. Asset type: one finished cinematic concept artwork for the cooperative game In to the Crackrooms. Existing project art establishes a photorealistic, tactile industrial Backrooms world: stale yellow fluorescent lights, worn practical equipment, company-employed researchers in yellow protective workwear, an immense spherical imploded region suspended above a chasm. Keep that continuity, but create a distinct new composition. Landscape 3:2, 1536x1024. Restrained atmospheric realism, strong readable shapes, detailed material surfaces, mundane architecture made unsettling. No typography, captions, logos, watermark or UI. No faces, eyes or mouth on the sphere. This is exploratory art, not a mechanics diagram. Extreme close working-distance material study of the Threshold layer on a massive gently curved wall. Two yellow-gloved hands: one applies solvent from a small utilitarian applicator precisely along an adhesive seam, the other lifts a broad curling strip of faded yellow patterned wallpaper. Translucent softened adhesive stretches into fine strands; paper fibers and damp film catch raking work light. Through the narrow peeled gap is warm pink irritated organic surface, only a restrained hint, no exposed organs or blood. A shallow metal tray below catches drips; the scaffold rail and dark drop are softly out of focus in background. Macro texture and craftsmanship, ordinary office decoration at disturbing scale. No text, no labels.",
+      "source": "/Users/mchlrtkwski/.codex/generated_images/01a1ae36-210c-7540-a417-73667583554c/exec-c0c6e4cc-b191-4c26-b82a-be0dfa14240c.png",
+      "file": "artwork-archive/expansion-alternates/solvent-seam-v1.png"
+    },
+    {
+      "id": "core-observation",
+      "title": "Taking the core's measure",
+      "category": "Equipment",
+      "prompt": "Use case: stylized-concept. Asset type: one finished cinematic concept artwork for the cooperative game In to the Crackrooms. Existing project art establishes a photorealistic, tactile industrial Backrooms world: stale yellow fluorescent lights, worn practical equipment, company-employed researchers in yellow protective workwear, an immense spherical imploded region suspended above a chasm. Keep that continuity, but create a distinct new composition. Landscape 3:2, 1536x1024. Restrained atmospheric realism, strong readable shapes, detailed material surfaces, mundane architecture made unsettling. No typography, captions, logos, watermark or UI. No faces, eyes or mouth on the sphere. This is exploratory art, not a mechanics diagram. Wide quiet observation scene on a narrow braced scaffold platform facing an enormous exposed spherical fleshy core. Foreground is dominated by a mundane portable analog measuring rig on a wheeled trolley: coiled cables, pressure dial with no readable numerals, small paper trace with a simple wavy line, and a work lamp. One yellow-suited researcher crouches to adjust a dial while another stands still at the railing, tools lowered. Behind them the immense curved pink-red tissue has shallow rounded folds and subtle surface tension, with ragged wallpaper remnants around the distant perimeter. No face, eyes, mouth, limbs, organs, gore or spraying blood. Cool work lights against restrained warm organic material, immense scale, ambiguous response. The instruments are an exploratory visual idea; do not depict a solved ending or explicit explanation.",
+      "source": "/Users/mchlrtkwski/.codex/generated_images/01a1ae36-210c-7540-a417-73667583554c/exec-8781994b-fc1d-4d36-9c74-8e4934dddab4.png",
+      "file": "artwork-archive/expansion-alternates/core-observation-v1.png"
+    }
+  ]
+}
