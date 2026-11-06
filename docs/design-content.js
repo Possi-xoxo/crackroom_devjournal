@@ -160,6 +160,28 @@ const currentDesign = {
       "obstacle": "Removing the wallpaper exposes the sphere’s fleshy, irritated center."
     }
   ],
+  "researchBuffs": [
+    {
+      "title": "Mining speed",
+      "motivation": "Make excavation more efficient by reducing the time spent breaking or clearing materials.",
+      "question": "Would this affect tool action speed, damage to material, or time to clear an obstruction?"
+    },
+    {
+      "title": "Movement speed",
+      "motivation": "Move between work areas more quickly and create more room to reposition during encounters.",
+      "question": "Would this improve walking speed, sprinting speed, or both?"
+    },
+    {
+      "title": "Stamina boost",
+      "motivation": "Sustain movement or exertion longer during excavation, exploration, and escapes.",
+      "question": "Would this increase maximum stamina, improve recovery, or reduce stamina costs?"
+    },
+    {
+      "title": "Aggro reduction / stealth",
+      "motivation": "Attract less attention from threats and give cautious teams another reason to invest in research.",
+      "question": "Would this affect noise, detection range, threat buildup, or another enemy-awareness rule?"
+    }
+  ],
   "researchGames": [
     {
       "id": "rhythm",
