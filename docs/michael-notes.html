@@ -72,7 +72,7 @@
         <figure class="drawing">
   <h3>Testing a hotel door</h3>
   <svg viewBox="0 0 396 344" role="img" aria-labelledby="hotel-desc">
-    <title id="hotel-desc">After the crew opens a hotel door with the skeleton key and clears the Threat Room, the exit column shows the floor. A wrong door returns the crew to the previous landing. The crew finds the Company Analyzer on the landing just beyond the correct Hotel exit.</title>
+    <title id="hotel-desc">After the crew opens a hotel door with the skeleton key and clears the Threat Room, the exit column shows the floor. A wrong exit returns the crew to the Hotel landing. As the crew exits, that Threat Room disappears and a plain wall takes the place of its entrance. The crew must try a remaining door. The crew finds the Company Analyzer on the landing just beyond the correct Hotel exit.</title>
     <defs><marker id="hotel-head" viewBox="0 0 9 8" refX="8" refY="4" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L8 4 L0 8 Z" fill="#cde990"/></marker></defs>
     <text x="47" y="27" text-anchor="middle" class="route-name">Crew</text><path d="M47 39 V334" stroke="#62705c" stroke-dasharray="4 4"/>
     <text x="198" y="27" text-anchor="middle" class="route-name">Threat room</text><path d="M198 39 V334" stroke="#62705c" stroke-dasharray="4 4"/>
@@ -80,7 +80,7 @@
     <text x="122.5" y="73" text-anchor="middle" class="route-small">Use skeleton key</text><path d="M47 81 H198" stroke="#cde990" stroke-width="1.8" marker-end="url(#hotel-head)"/>
     <text x="273.5" y="119" text-anchor="middle" class="route-small">Clear room and exit</text><path d="M198 127 H349" stroke="#cde990" stroke-width="1.8" marker-end="url(#hotel-head)"/>
     <text x="198" y="165" text-anchor="middle" class="route-small">Read floor number</text><path d="M349 173 H47" stroke="#cde990" stroke-width="1.8" marker-end="url(#hotel-head)"/>
-    <text x="122.5" y="211" text-anchor="middle" class="route-small">Same floor? Try again</text><path d="M47 219 H198" stroke="#cde990" stroke-width="1.8" marker-end="url(#hotel-head)"/>
+    <text x="122.5" y="211" text-anchor="middle" class="route-small">Room gone · try next</text><path d="M47 219 H198" stroke="#cde990" stroke-width="1.8" marker-end="url(#hotel-head)"/>
     <text x="273.5" y="257" text-anchor="middle" class="route-small">Take the Hotel exit</text><path d="M198 265 H349" stroke="#cde990" stroke-width="1.8" marker-end="url(#hotel-head)"/>
     <text x="198" y="303" text-anchor="middle" class="route-small">Collect analyzer</text><path d="M349 311 H47" stroke="#cde990" stroke-width="1.8" marker-end="url(#hotel-head)"/>
   </svg>
@@ -91,7 +91,7 @@
         <li><h3>Factory · collect scrap metal</h3><p>Break into the factory beneath the glass. Take scrap back to Material Deposit to unlock the recipes for scaffolding, buckets, and a scrap lockpick. The next order is plastic from the Pool Slide. At the Craft Station, use some scrap to make the lockpick. Save more scrap for the scaffold bridge.</p></li>
         <li><h3>Level two · reach the Poolrooms</h3><p>The crew can spot the first Threat Door early. Pick its lock with the scrap lockpick, then clear the Threat Room to reach level two. Level two has no premade ramp. Craft scaffold platforms at base with level-one scrap and build a bridge across the chasm. Break the glass to expose the Poolrooms, the first source of pool water. Deposit the slide plastic to unlock the crowbar recipe and research for the plastic jug and Reality Gun. Once the crew has a jug, it can collect pool water for solvent. Use the gun to phase in the shifting material blocking the next Threat Door.</p></li>
         <li><h3>Office · collect PC parts</h3><p>Cross to the next floor, break the glass, and phase in the distorted layer covering the office. The Office forms a shallow ring of cubicles and desks. Use the crowbar to pry apart furnishings and open computer cases for parts. Completing the PC-parts order earns skeleton-key research. Use the key at the locked door, clear the Threat Room, and pursue the next objective, the Company Analyzer.</p></li>
-        <li><h3>Hotel · find the way up</h3><p>Break the glass and auger into a mostly hollow maze of hotel rooms. The skeleton key opens every candidate door. Only one route leads out of the Hotel. Take that exit to find the Company Analyzer on the landing just beyond it. The other Threat Rooms exit at the previous landing. Read the floor number on the exit column to recognize a repeat. Random door placement can mean several attempts. A costly Door Detector offers a shortcut for a crew that has found enough treasure.</p></li>
+        <li><h3>Hotel · find the way up</h3><p>Break the glass and auger into a mostly hollow maze of hotel rooms. The skeleton key opens every candidate door. Only one route leads out of the Hotel. Take that exit to find the Company Analyzer on the landing just beyond it. A wrong exit returns the crew to the previous landing, where the column shows the same floor number. The room disappears as the crew exits. Back where they entered, there is only a plain wall. Random door placement can mean several attempts. A costly Door Detector offers a shortcut for a crew that has found enough treasure.</p></li>
         <li><h3>Final floor · scan the Threshold</h3><p>With the analyzer in hand, break the glass to find the same Threshold material that has surrounded the crew throughout the climb, now encased inside the Egg. Scan it to earn research for solvent and the solvent gun.</p></li>
         <li><h3>Core · harvest the final material</h3><p>Bring scrap metal, computer chips, plastic, and water-filled jugs back to base for the final push. Craft the solvent using the filled jugs. On the final floor, use the solvent gun to melt the Threshold down to its columns and walls. Search the exposed halls for the hidden final door. Enter it and harvest the inner core material inside.</p></li>
       </ol>
@@ -399,7 +399,7 @@
           </li>
           <li>
             <span class="journey-line" aria-hidden="true"><svg viewBox="0 0 160 20"><path d="M140 10 H100 m5 -4 l-5 4 --5 4"/><circle cx="140" cy="10" r="2.5"/></svg></span>
-            <div><span class="sr-only">Threat Room to Floor. </span><strong>Wrong exit · repeat</strong><p>If the exit column shows the same floor number, the crew is back on the Hotel landing. Mark the door if carrying a marker, then <a href="#hotel-attempt">test another candidate</a>.</p></div>
+            <div><span class="sr-only">Threat Room to Floor. </span><strong>Wrong exit · repeat</strong><p>If the exit column shows the same floor number, the crew is back on the Hotel landing. The room vanishes on exit. A plain wall now stands where the crew entered. Return to the maze and <a href="#hotel-attempt">choose a remaining door</a>.</p></div>
           </li>
           <li>
             <span class="journey-line" aria-hidden="true"><svg viewBox="0 0 160 20"><path d="M140 10 H100 m5 -4 l-5 4 --5 4"/><circle cx="140" cy="10" r="2.5"/></svg></span>
