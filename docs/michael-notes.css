@@ -39,3 +39,6 @@
 .inventory dd { margin: .2rem 0 0; color: #c0c8b5; }
 @media (max-width: 800px) { .map-grid, .sequence-grid { grid-template-columns: 1fr; } }
 @media (max-width: 540px) { .inventory { grid-template-columns: 1fr; } .sheet-intro { margin-top: 2rem; } }
+
+.objective-reward { margin-top: .55rem; }
+.objective-reward strong { color: var(--route); margin-right: .4rem; }
