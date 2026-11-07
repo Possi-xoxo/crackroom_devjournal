@@ -16,7 +16,7 @@
       <h1>Michael Notes</h1>
       <p>A corporation in the Backrooms hires a research crew to investigate a layered orb known as the Egg. A whole region of the Backrooms appears to have imploded into it. The crew must work its way to the core to find out whether it caused the anomaly.</p>
     </header>
-    <div class="jump-links" aria-label="On this page"><a href="#route">Floor connections</a><a href="#prototype">Prototype sequence</a><a href="#equipment">Tools and supplies</a><a href="#stations">Base stations</a><a href="#objectives">Objectives and rewards</a><a href="#materials">Materials</a><a href="#sphere">Sphere cross-section</a></div>
+    <div class="jump-links" aria-label="On this page"><a href="#route">Floor connections</a><a href="#prototype">Prototype sequence</a><a href="#equipment">Tools and supplies</a><a href="#stations">Base stations</a><a href="#objectives">Objectives and rewards</a><a href="#materials">Materials</a><a href="#sphere">The Egg by elevation</a></div>
     <section id="route">
       <h2>How the floors connect</h2>
       <div class="map-grid">
@@ -190,43 +190,51 @@
       </ol>
     </section>
     <section id="sphere">
-      <h2>Sphere cross-section</h2>
+      <h2>The Egg by elevation</h2>
       <figure class="drawing sphere-cutaway">
-        <svg viewBox="0 0 382 276" role="img" aria-labelledby="egg-cutaway-title egg-cutaway-desc">
-          <title id="egg-cutaway-title">The Egg, from glass shell to inner core</title>
-          <desc id="egg-cutaway-desc">A schematic cutaway shows the glass exterior and the Factory, Poolrooms, Office, Hotel, Threshold, and core in encounter order. Threat Rooms connect different elevations outside the Egg. The final door behind the dissolved Threshold leads to the core.</desc>
+        <svg viewBox="0 0 394 350" role="img" aria-labelledby="egg-elevation-title egg-elevation-desc">
+          <title id="egg-elevation-title">Side view of the Egg and its approaches</title>
+          <desc id="egg-elevation-desc">Read upward from the premade ramp. The Factory is behind the glass on the first floor. A scaffold bridge reaches the Poolrooms on the second floor. The Office and Hotel occupy higher elevations. Beyond the correct Hotel exit, the analyzer waits on the final landing. At that height the crew dissolves the Threshold and enters the hidden door to harvest the core.</desc>
           <defs>
-            <pattern id="shell-lines" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(32)">
-              <path d="M0 0 V9" stroke="#293538" stroke-width="2" opacity=".28"/>
-            </pattern>
-            <clipPath id="egg-outline"><circle cx="122" cy="140" r="108"/></clipPath>
+            <clipPath id="egg-interior"><circle cx="228" cy="174" r="136"/></clipPath>
           </defs>
-          <circle cx="122" cy="140" r="108" fill="#97b6bf" stroke="#1b201a" stroke-width="1.4"/>
-          <circle cx="122" cy="140" r="100" fill="#765f46" stroke="#1b201a" stroke-width="1.4"/>
-          <circle cx="122" cy="140" r="84" fill="#4f8991" stroke="#1b201a" stroke-width="1.4"/>
-          <circle cx="122" cy="140" r="68" fill="#959371" stroke="#1b201a" stroke-width="1.4"/>
-          <circle cx="122" cy="140" r="52" fill="#87615f" stroke="#1b201a" stroke-width="1.4"/>
-          <circle cx="122" cy="140" r="36" fill="#b09157" stroke="#1b201a" stroke-width="1.4"/>
-          <circle cx="122" cy="140" r="20" fill="#a46167" stroke="#1b201a" stroke-width="1.4"/>
-          <path d="M14 32 H122 V248 H14 Z" fill="url(#shell-lines)" clip-path="url(#egg-outline)"/>
-          <g fill="none" stroke="#ecede6" stroke-width="1.2">
-            <path d="M164 45 L238 32 H251"/>
-            <path d="M181 69 L238 64 H251"/>
-            <path d="M189 105 L238 96 H251"/>
-            <path d="M177 136 L238 128 H251"/>
-            <path d="M159 157 L238 160 H251"/>
-            <path d="M138 167 L238 192 H251"/>
-            <path d="M123 151 L238 224 H251"/>
+
+          <!-- Each horizontal slice meets the outer glass at its own elevation. -->
+          <g clip-path="url(#egg-interior)">
+            <rect x="92" y="38" width="272" height="62" fill="#534932"/>
+            <rect x="92" y="100" width="272" height="52" fill="#593e40"/>
+            <rect x="92" y="152" width="272" height="44" fill="#414634"/>
+            <rect x="92" y="196" width="272" height="52" fill="#264e55"/>
+            <rect x="92" y="248" width="272" height="62" fill="#4e4032"/>
+            <path d="M92 100h272 M92 152h272 M92 196h272 M92 248h272" fill="none" stroke="#c3c8ae" stroke-opacity=".68"/>
+            <g text-anchor="middle" class="route-name">
+              <text x="228" y="72">Threshold</text>
+              <text x="228" y="131">Hotel</text>
+              <text x="228" y="181">Office</text>
+              <text x="228" y="228">Poolrooms</text>
+              <text x="228" y="281">Factory</text>
+            </g>
+            <text x="228" y="92" text-anchor="middle" class="route-small">Hidden door → core</text>
           </g>
-          <circle cx="164" cy="45" r="3" fill="#182019" stroke="#fff"/><text x="258" y="37" class="route-name">Glass shell</text>
-          <circle cx="181" cy="69" r="3" fill="#182019" stroke="#fff"/><text x="258" y="69" class="route-name">Factory</text>
-          <circle cx="189" cy="105" r="3" fill="#182019" stroke="#fff"/><text x="258" y="101" class="route-name">Poolrooms</text>
-          <circle cx="177" cy="136" r="3" fill="#182019" stroke="#fff"/><text x="258" y="133" class="route-name">Office</text>
-          <circle cx="159" cy="157" r="3" fill="#182019" stroke="#fff"/><text x="258" y="165" class="route-name">Hotel</text>
-          <circle cx="138" cy="167" r="3" fill="#182019" stroke="#fff"/><text x="258" y="197" class="route-name">Threshold</text>
-          <circle cx="123" cy="151" r="3" fill="#182019" stroke="#fff"/><text x="258" y="229" class="route-name">Core</text>
+          <circle cx="228" cy="174" r="137" fill="none" stroke="#b1dbe3" stroke-width="4"/>
+          <path d="M297 56 l17 -26 h28" fill="none" stroke="#b1dbe3"/>
+          <text x="338" y="22" text-anchor="middle" class="route-small">Glass shell</text>
+
+          <!-- The starting ramp and second-floor bridge cross the chasm from outside. -->
+          <g fill="none" stroke="#d0bf98" stroke-width="2">
+            <path d="M9 304 H42 L132 272 M42 308 L132 276"/>
+            <path d="M9 222 H100 M9 230 H103 M17 230 l12 -8 12 8 12 -8 12 8 12 -8 12 8"/>
+          </g>
+          <g class="route-small">
+            <text x="9" y="283">Start · ramp</text>
+            <text x="9" y="193">Level 2</text>
+            <text x="9" y="212">Scaffold</text>
+            <text x="9" y="60">Final landing</text>
+            <text x="9" y="79">Analyzer</text>
+          </g>
+          <path d="M9 86 H123" fill="none" stroke="#97cbd5" stroke-width="2"/>
         </svg>
-        <figcaption>The bands show encounter order. Crews reach the Egg at different elevations by clearing Threat Rooms and crossing the chasm. The final approach starts beyond the correct Hotel exit, where the crew picks up the analyzer before exposing the Threshold and finding the core door.</figcaption>
+        <figcaption>Read from the ramp upward. Clearing a Threat Room brings the crew to a higher floor of the surrounding Threshold. From each floor, the crew approaches the glass at that height to reach a different part of the Egg. The correct Hotel exit leads to the analyzer. On that final floor, solvent exposes the columns and walls around the hidden core door.</figcaption>
       </figure>
     </section>
     <details class="raw-note">
