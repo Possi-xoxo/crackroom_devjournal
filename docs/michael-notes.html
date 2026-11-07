@@ -23,7 +23,7 @@
         <figure class="drawing">
           <svg viewBox="0 0 425 285" role="img" aria-labelledby="route-title route-desc">
             <title id="route-title">Threat Room passage and first-floor shortcut</title>
-            <desc id="route-desc">From a lower tier, the crew enters and clears a Threat Room to reach the upper Threshold. The exit also leads back into that room. Finding the paired door on the upper tier opens a two-way shortcut to a previously locked first-floor gateway. Base is a walk from that gateway.</desc>
+            <desc id="route-desc">From a lower tier, the crew enters and clears a Threat Room to reach the upper Threshold. The whole crew enters together and the passage is one-way. Finding the paired door on the upper tier opens a two-way shortcut to a previously locked first-floor gateway. Base is a walk from that gateway.</desc>
             <defs>
               <marker id="up-arrow" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L8 4 L0 8" fill="#cde990"/></marker>
               <marker id="back-arrow" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L8 4 L0 8" fill="#97cbd5"/></marker>
@@ -35,7 +35,6 @@
               <rect x="7" y="146" width="153" height="65" rx="5" class="route-box"/><text x="84" y="175" class="route-name">First-floor gate</text><text x="84" y="196" class="route-small">locked at first</text>
               <path d="M163 42 H251" stroke="#cde990" stroke-width="2" marker-end="url(#up-arrow)"/><text x="206" y="32" class="route-label">Enter</text>
               <path d="M292 71 V141" stroke="#cde990" stroke-width="2" marker-end="url(#up-arrow)"/><text x="268" y="112" class="route-label">Clear</text>
-              <path d="M355 142 V74" stroke="#97cbd5" stroke-width="2" marker-end="url(#back-arrow)"/><text x="385" y="112" class="route-small">Return</text>
               <path d="M166 178 H249" stroke="#97cbd5" stroke-width="2" marker-start="url(#back-arrow)" marker-end="url(#back-arrow)"/><text x="207" y="161" class="route-small">Unlock</text>
               <path d="M84 216 V249" stroke="#97cbd5" stroke-width="2" marker-end="url(#back-arrow)"/><text x="84" y="274" class="route-name">Walk to base</text>
             </g>
@@ -44,20 +43,20 @@
         </figure>
         <ol class="flow-notes">
           <li><strong>Climb.</strong> A portal-like doorway opens into a dangerous version of a familiar Backrooms location. Its geometry lets the entrance and exit meet the sphere at different elevations.</li>
-          <li><strong>Choose a return route.</strong> Step back through the exit to revisit the Threat Room, or explore the surrounding floor for its paired door.</li>
-          <li><strong>Open the shortcut from above.</strong> The crew can discover a gateway on the first floor early. It stays locked until someone finds its partner on the upper tier. Once open, the first floor connects unlocked tiers in a few crossings.</li>
+          <li><strong>Regroup at the door.</strong> All players must enter a Threat Room together. Each room has its own challenge, and travel through it is one-way. After exiting, search the new floor for its base gateway.</li>
+          <li><strong>Open the shortcut from above.</strong> The crew can discover a gateway on the first floor early. It stays locked until someone finds its partner on the upper tier. One player can unlock it for everyone. A teammate can then haul materials to base while the others keep working.</li>
         </ol>
       </div>
     </section>
     <section id="prototype">
       <h2>Prototype sequence</h2>
-      <p>The corporation sets collection targets. Players carry material back to base, use the stations, and earn tools or research for the next stage.</p>
+      <p>The expedition runs continuously from arrival to the core harvest, with no day resets. The corporation sets collection targets. Players carry material back to base, use the stations, and earn tools or research for the next stage.</p>
       <ul class="chain" aria-label="Collection cycle"><li>Take an objective</li><li>Reach the layer</li><li>Harvest</li><li>Walk back and deposit</li><li>Unlock the next step</li></ul>
       <div class="sequence-grid">
         <figure class="drawing">
   <h3>From glass to research</h3>
   <svg viewBox="0 0 396 344" role="img" aria-labelledby="scrap-desc">
-    <title id="scrap-desc">The company issues a hammer and a glass order. The crew deposits glass, receives an auger, and returns with factory scrap. Research opens. The crew can craft a lockpick from scrap to open the first Threat Door.</title>
+    <title id="scrap-desc">The company issues a hammer and a glass order. The crew deposits glass, receives an auger, and returns with factory scrap. The first recipes unlock. The crew can craft a lockpick from scrap to open the first Threat Door.</title>
     <defs><marker id="scrap-head" viewBox="0 0 9 8" refX="8" refY="4" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L8 4 L0 8 Z" fill="#cde990"/></marker></defs>
     <text x="47" y="27" text-anchor="middle" class="route-name">Company</text><path d="M47 39 V334" stroke="#62705c" stroke-dasharray="4 4"/>
     <text x="198" y="27" text-anchor="middle" class="route-name">Crew</text><path d="M198 39 V334" stroke="#62705c" stroke-dasharray="4 4"/>
@@ -66,7 +65,7 @@
     <text x="273.5" y="119" text-anchor="middle" class="route-small">Deposit shell glass</text><path d="M198 127 H349" stroke="#cde990" stroke-width="1.8" marker-end="url(#scrap-head)"/>
     <text x="122.5" y="165" text-anchor="middle" class="route-small">Auger + scrap order</text><path d="M47 173 H198" stroke="#cde990" stroke-width="1.8" marker-end="url(#scrap-head)"/>
     <text x="273.5" y="211" text-anchor="middle" class="route-small">Deposit factory scrap</text><path d="M198 219 H349" stroke="#cde990" stroke-width="1.8" marker-end="url(#scrap-head)"/>
-    <text x="273.5" y="257" text-anchor="middle" class="route-small">Research access</text><path d="M349 265 H198" stroke="#cde990" stroke-width="1.8" marker-end="url(#scrap-head)"/>
+    <text x="273.5" y="257" text-anchor="middle" class="route-small">First recipes</text><path d="M349 265 H198" stroke="#cde990" stroke-width="1.8" marker-end="url(#scrap-head)"/>
     <text x="273.5" y="303" text-anchor="middle" class="route-small">Craft lockpick</text><path d="M198 311 H349" stroke="#cde990" stroke-width="1.8" marker-end="url(#scrap-head)"/>
   </svg>
 </figure>
@@ -89,7 +88,7 @@
       </div>
       <ol class="stage-list">
         <li><h3>Glass shell · collect glass</h3><p>Enter the Backrooms, pick up the complimentary hammer, and follow the premade ramp to the Egg. Shatter enough of the first-level shell to fill the company’s glass order. The company issues an auger.</p></li>
-        <li><h3>Factory · collect scrap metal</h3><p>Break into the factory beneath the glass. Take scrap back to Material Deposit to unlock the Research Station and the recipes for scaffolding, buckets, and a scrap lockpick. The next order is plastic from the Pool Slide. At the Craft Station, use some scrap to make the lockpick. Save more scrap for the scaffold bridge.</p></li>
+        <li><h3>Factory · collect scrap metal</h3><p>Break into the factory beneath the glass. Take scrap back to Material Deposit to unlock the recipes for scaffolding, buckets, and a scrap lockpick. The next order is plastic from the Pool Slide. At the Craft Station, use some scrap to make the lockpick. Save more scrap for the scaffold bridge.</p></li>
         <li><h3>Level two · reach the Poolrooms</h3><p>The crew can spot the first Threat Door early. Pick its lock with the scrap lockpick, then clear the Threat Room to reach level two. Level two has no premade ramp. Craft scaffold platforms at base with level-one scrap and build a bridge across the chasm. Break the glass to expose the Poolrooms, the first source of pool water. Mine the slide plastic to complete the order and unlock research for the plastic jug and Reality Gun. Once the crew has a jug, it can collect pool water for solvent. Use the gun to phase in the shifting material blocking the next Threat Door.</p></li>
         <li><h3>Office · collect PC parts</h3><p>Cross to the next floor, break the glass, and phase in the distorted layer covering the office. The Office forms a shallow ring of cubicles and desks. Search the desks and break down computers for parts. Completing the PC-parts order earns skeleton-key research. Use the key at the locked door, clear the Threat Room, and pursue the next objective, the Company Analyzer.</p></li>
         <li><h3>Hotel · find the way up</h3><p>Break the glass and auger into a mostly hollow maze of hotel rooms. The skeleton key opens every candidate door. Only one route leads out of the Hotel. Take that exit to find the Company Analyzer on the landing just beyond it. The other Threat Rooms exit at the previous landing. Read the floor number on the exit column to recognize a repeat. Random door placement can mean several attempts. A costly Door Detector offers a shortcut for a crew that has found enough treasure.</p></li>
@@ -107,7 +106,7 @@
           <tr><th scope="row">Garbage bags</th><td>Reusable, low-capacity carriers for the early glass haul, before buckets become available.</td></tr>
           <tr><th scope="row">Auger</th><td>Issued for the glass order. Break hard Factory and Poolrooms material to recover scrap and slide debris.</td></tr>
           <tr><th scope="row">Buckets</th><td>The scrap order unlocks the recipe. Carry solid material to Deposit or Research.</td></tr>
-          <tr><th scope="row">Scrap lockpick</th><td>Craft from factory scrap after the scrap order. Pick the first Threat Door. Optional locks in the surrounding Threshold can also conceal side rooms.</td></tr>
+          <tr><th scope="row">Scrap lockpick</th><td>Craft from factory scrap after the scrap order. Solve the lockpicking puzzle at the first Threat Door. Failure breaks the pick. Success consumes it and leaves the door unlocked. Other locks in the Threshold may conceal treasure, secrets, or lore.</td></tr>
           <tr><th scope="row">Scaffolding</th><td>Craft railing and flat platform sections from scrap. Bridge the chasm where the premade ramp cannot reach the Egg.</td></tr>
           <tr><th scope="row">Plastic jug</th><td>The Pool Slide order unlocks jug research. A plastic jug is the only vessel for collecting pool water. Bring filled jugs back for solvent.</td></tr>
           <tr><th scope="row">Reality Gun</th><td>Research after the plastic order. Bring the shifting doorway and Office debris into phase so the crew can clear them.</td></tr>
@@ -130,10 +129,11 @@
     </section>
     <section id="stations">
       <h2>Stations at base</h2>
+      <p>All stations are available on arrival. If the crew has no usable recipe or material to deposit, the station asks them to come back later.</p>
       <dl class="inventory">
-        <div><dt>Material Deposit</dt><dd>Hand in collected material to meet the current objective.</dd></div>
-        <div><dt>Research Station</dt><dd>Opens after the scrap-metal order. Research supplies the recipes and tools needed for later layers.</dd></div>
-        <div><dt>Craft Station</dt><dd>Craft lockpicks and scaffold platforms from scrap. After researching solvent, bring water-filled plastic jugs here to craft it.</dd></div>
+        <div><dt>Material Deposit</dt><dd>Send a whole bag or bucket along the conveyor. It empties the container and returns it for reuse. Each order has a target quantity, still to be set. Surplus from the completing load gives no extra order credit.</dd></div>
+        <div><dt>Research Station</dt><dd>Research supplies the recipes and tools needed for later layers.</dd></div>
+        <div><dt>Craft Station</dt><dd>Send crafting materials down this station’s conveyor to build up its inventory. Order deposits and crafting stock cannot be transferred between stations. Use stored scrap to craft lockpicks and scaffold platforms. After researching solvent, bring water-filled plastic jugs here to craft it.</dd></div>
         <div><dt>Store</dt><dd>Spend treasure proceeds on extras and expensive upgrades. Treasure can fall out of the Egg, but a run may yield none. The crew can finish with the ordinary tools and door routes.</dd></div>
       </dl>
     </section>
@@ -148,7 +148,7 @@
         <li>
           <h3>Collect scrap metal</h3>
           <p>Use the auger on the factory layer and bring the required scrap to Material Deposit.</p>
-          <p class="objective-reward"><strong>Reward</strong> Access to the Research Station and recipes for scaffolding, buckets, and the scrap lockpick.</p>
+          <p class="objective-reward"><strong>Reward</strong> Recipes for scaffolding, buckets, and the scrap lockpick.</p>
         </li>
         <li>
           <h3>Collect Pool Slide plastic</h3>
@@ -293,7 +293,7 @@
           </li>
           <li>
             <span class="journey-line" aria-hidden="true"><svg viewBox="0 0 160 20"><path d="M20 10 H60 m-5 -4 l5 4 -5 4"/><circle cx="20" cy="10" r="2.5"/></svg></span>
-            <div><span class="sr-only">Base to Crew. </span><strong>Open Research</strong><p>The scrap order grants Research Station access and the scaffolding, bucket, and lockpick recipes. The next order is Pool Slide plastic.</p></div>
+            <div><span class="sr-only">Base to Crew. </span><strong>Unlock the first recipes</strong><p>Turning in the scrap order unlocks the scaffolding, bucket, and lockpick recipes. The next order is Pool Slide plastic.</p></div>
           </li>
           <li>
             <span class="journey-line" aria-hidden="true"><svg viewBox="0 0 160 20"><path d="M60 10 H20 m5 -4 l-5 4 --5 4"/><circle cx="60" cy="10" r="2.5"/></svg></span>
@@ -311,11 +311,11 @@
           </li>
           <li>
             <span class="journey-line" aria-hidden="true"><svg viewBox="0 0 160 20"><path d="M60 10 H140 m-5 -4 l5 4 -5 4"/><circle cx="60" cy="10" r="2.5"/></svg></span>
-            <div><span class="sr-only">Crew to Threat Room. </span><strong>Pick the lock and enter</strong><p>Clear the Threat Room reached through the locked first-floor door.</p></div>
+            <div><span class="sr-only">Crew to Threat Room. </span><strong>Pick the lock and enter</strong><p>Once the lock is picked, gather the whole crew to enter. Reach the exit to advance together.</p></div>
           </li>
           <li>
             <span class="journey-line" aria-hidden="true"><svg viewBox="0 0 160 20"><path d="M140 10 H100 m5 -4 l-5 4 --5 4"/><circle cx="140" cy="10" r="2.5"/></svg></span>
-            <div><span class="sr-only">Threat Room to Floor. </span><strong>Emerge on level two</strong><p>The exit opens onto the surrounding Threshold at the Poolrooms elevation. Stepping back through it returns the crew to the Threat Room.</p></div>
+            <div><span class="sr-only">Threat Room to Floor. </span><strong>Emerge on level two</strong><p>The exit opens onto the surrounding Threshold at the Poolrooms elevation. The passage is one-way. Find the level’s base gateway for the return trip.</p></div>
           </li>
           <li>
             <span class="journey-line" aria-hidden="true"><svg viewBox="0 0 160 20"><path d="M60 10 H100 m-5 -4 l5 4 -5 4"/><circle cx="60" cy="10" r="2.5"/></svg></span>
@@ -331,7 +331,7 @@
           </li>
           <li>
             <span class="journey-line" aria-hidden="true"><svg viewBox="0 0 160 20"><path d="M60 10 H20 m5 -4 l-5 4 --5 4"/><circle cx="60" cy="10" r="2.5"/></svg></span>
-            <div><span class="sr-only">Crew to Base. </span><strong>Deliver the plastic</strong><p>Return via the unlocked gateway or back through the Threat Room, then walk to Material Deposit.</p></div>
+            <div><span class="sr-only">Crew to Base. </span><strong>Deliver the plastic</strong><p>Take the unlocked gateway to the first floor, then walk to Material Deposit.</p></div>
           </li>
           <li>
             <span class="journey-line" aria-hidden="true"><svg viewBox="0 0 160 20"><path d="M20 10 H60 m-5 -4 l5 4 -5 4"/><circle cx="20" cy="10" r="2.5"/></svg></span>
