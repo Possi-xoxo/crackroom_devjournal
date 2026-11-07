@@ -16,7 +16,7 @@
       <h1>Michael Notes</h1>
       <p>A corporation in the Backrooms hires a research crew to investigate a layered orb known as the Egg. A whole region of the Backrooms appears to have imploded into it. The crew must work its way to the core to find out whether it caused the anomaly.</p>
     </header>
-    <div class="jump-links" aria-label="On this page"><a href="#route">Floor connections</a><a href="#prototype">Prototype sequence</a><a href="#equipment">Tools and supplies</a><a href="#stations">Base stations</a><a href="#objectives">Objectives and rewards</a></div>
+    <div class="jump-links" aria-label="On this page"><a href="#route">Floor connections</a><a href="#prototype">Prototype sequence</a><a href="#equipment">Tools and supplies</a><a href="#stations">Base stations</a><a href="#objectives">Objectives and rewards</a><a href="#materials">Materials</a><a href="#sphere">Sphere cross-section</a></div>
     <section id="route">
       <h2>How the floors connect</h2>
       <div class="map-grid">
@@ -99,21 +99,34 @@
     </section>
     <section id="equipment">
       <h2>Tools and supplies</h2>
-      <dl class="inventory">
-        <div><dt>Hammer</dt><dd>Breaks the initial glass shell. After researching the railing recipe, use the hammer with metal scrap to make railing.</dd></div>
-        <div><dt>Auger</dt><dd>Breaks hard material and collects debris from the factory and Poolrooms.</dd></div>
-        <div><dt>Solvent and solvent gun</dt><dd>Research unlocks the solvent and its applicator. Crafting solvent requires plastic jugs filled with Poolrooms water. Load the solvent into the gun to dissolve the Threshold.</dd></div>
-        <div><dt>Scrap lockpick</dt><dd>Craft it from factory scrap. The first Threat Door requires it. Selected locked doors in the surrounding Threshold could also open onto optional hidden locations.</dd></div>
-        <div><dt>Scaffolding</dt><dd>Craft flat railing or platform sections from scrap to span the chasm and reach the Egg at different elevations.</dd></div>
-        <div><dt>Reality Gun</dt><dd>Research tool that brings distorted Backrooms debris into phase so the crew can mine it or clear a blocked doorway.</dd></div>
-        <div><dt>Soft tool</dt><dd>Harvests softer material in the Office and Hotel.</dd></div>
-        <div><dt>Garbage bags</dt><dd>Small reusable carriers for glass and other solids. Most useful before the crew can make buckets.</dd></div>
-        <div><dt>Buckets</dt><dd>Carry solid material back to base for deposit or research.</dd></div>
-        <div><dt>Plastic jug</dt><dd>The only container that can collect water. The jug requires glass research, which the Pool Slide objective unlocks. Fill jugs in the Poolrooms and bring them to the Craft Station for solvent.</dd></div>
-        <div><dt>Marker and flashlight</dt><dd>Mark doors with the marker. Use the flashlight for a flash of light.</dd></div>
-        <div><dt>Metal Detector</dt><dd>Locates valuable treasure inside the Egg. Sell finds to fund optional purchases.</dd></div>
-        <div><dt>Door Detector</dt><dd>An expensive store upgrade for finding the onward route through the hotel.</dd></div>
-      </dl>
+      <table class="kit-table">
+        <caption>Progression items</caption>
+        <thead><tr><th scope="col">Item</th><th scope="col">When and how the crew uses it</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">Hammer</th><td>Issued on arrival. Shatter the outer glass on each approach. After railing research, work scrap into bridge sections.</td></tr>
+          <tr><th scope="row">Garbage bags</th><td>Reusable, low-capacity carriers for the early glass haul, before buckets become available.</td></tr>
+          <tr><th scope="row">Auger</th><td>Issued for the glass order. Break hard Factory and Poolrooms material to recover scrap and slide debris.</td></tr>
+          <tr><th scope="row">Buckets</th><td>The scrap order unlocks the recipe. Carry solid material to Deposit or Research.</td></tr>
+          <tr><th scope="row">Scrap lockpick</th><td>Craft from factory scrap after the scrap order. Pick the first Threat Door. Optional locks in the surrounding Threshold can also conceal side rooms.</td></tr>
+          <tr><th scope="row">Scaffolding</th><td>Craft railing and flat platform sections from scrap. Bridge the chasm where the premade ramp cannot reach the Egg.</td></tr>
+          <tr><th scope="row">Plastic jug</th><td>The Pool Slide order unlocks jug research. A plastic jug is the only vessel for collecting pool water. Bring filled jugs back for solvent.</td></tr>
+          <tr><th scope="row">Reality Gun</th><td>Research after the plastic order. Bring the shifting doorway and Office debris into phase so the crew can clear them.</td></tr>
+          <tr><th scope="row">Soft tool</th><td>Harvest softer Office and Hotel material. The draft leaves its acquisition point open.</td></tr>
+          <tr><th scope="row">Skeleton key</th><td>Research after the PC-parts order. Unlock the Office exit and test candidate doors in the Hotel.</td></tr>
+          <tr><th scope="row">Company Analyzer</th><td>Pick it up on the landing beyond the correct Hotel exit. Scan the exposed Threshold to earn solvent research.</td></tr>
+          <tr><th scope="row">Solvent and solvent gun</th><td>Research after the scan. Craft solvent with filled plastic jugs, then spray the Threshold to expose the final door.</td></tr>
+        </tbody>
+      </table>
+      <table class="kit-table">
+        <caption>Shop items</caption>
+        <thead><tr><th scope="col">Item</th><th scope="col">Optional use and shop status</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">Door Detector</th><td>Specified store upgrade. Spend treasure proceeds to identify the correct Hotel route and avoid repeat trips.</td></tr>
+          <tr><th scope="row">Metal Detector</th><td>Proposed stock. Search the Egg for treasure to fund optional purchases.</td></tr>
+          <tr><th scope="row">Marker</th><td>Proposed stock. Mark doors to keep track of routes the crew has tried.</td></tr>
+          <tr><th scope="row">Flashlight</th><td>Proposed stock. Illuminate a dark room or doorway with a flash.</td></tr>
+        </tbody>
+      </table>
     </section>
     <section id="stations">
       <h2>Stations at base</h2>
@@ -163,6 +176,58 @@
           <p class="objective-reward"><strong>Reward</strong> Harvesting the core fulfills the proposed win condition. The end event is still to be designed.</p>
         </li>
       </ol>
+    </section>
+    <section id="materials">
+      <h2>Materials and clearing methods</h2>
+      <ol class="stage-list">
+        <li><h3>Glass shell</h3><p>Approach on the ramp or scaffold and shatter the glass with the hammer. Bag the first haul and deposit it for the auger. Each new approach starts at the shell.</p></li>
+        <li><h3>Factory metal</h3><p>Auger through the hard factory debris. Deposit scrap to unlock research and keep enough on hand to craft the lockpick and platforms for the next crossing.</p></li>
+        <li><h3>Pool Slide plastic and pool water</h3><p>Auger the slide and haul the solid plastic to Deposit. Once jug research is complete, return to the water with plastic jugs. Save the filled jugs for solvent.</p></li>
+        <li><h3>Distorted debris and Office furnishings</h3><p>Use the Reality Gun to bring the shifting obstruction into phase, then clear it. In the Office cubicle ring, use the soft tool on softer material, search desks, and break down computers for the PC-parts order.</p></li>
+        <li><h3>Hotel shell and rooms</h3><p>Hammer the glass and auger through the hard entry into the hollow Hotel. The soft tool can harvest softer furnishings. To advance, test doors with the skeleton key, clear their Threat Rooms, and check the exit columns. The correct exit leads to the analyzer.</p></li>
+        <li><h3>Threshold material</h3><p>Expose the Threshold with the hammer and scan it with the analyzer. At base, research the solvent and gun and use filled jugs to craft solvent. Spray away the material until the columns and walls are exposed.</p></li>
+        <li><h3>Inner core</h3><p>Search the exposed halls on the final floor for the hidden door. Enter it and harvest the core material to complete the run.</p></li>
+      </ol>
+    </section>
+    <section id="sphere">
+      <h2>Sphere cross-section</h2>
+      <figure class="drawing sphere-cutaway">
+        <svg viewBox="0 0 382 276" role="img" aria-labelledby="egg-cutaway-title egg-cutaway-desc">
+          <title id="egg-cutaway-title">The Egg, from glass shell to inner core</title>
+          <desc id="egg-cutaway-desc">A schematic cutaway shows the glass exterior and the Factory, Poolrooms, Office, Hotel, Threshold, and core in encounter order. Threat Rooms connect different elevations outside the Egg. The final door behind the dissolved Threshold leads to the core.</desc>
+          <defs>
+            <pattern id="shell-lines" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(32)">
+              <path d="M0 0 V9" stroke="#293538" stroke-width="2" opacity=".28"/>
+            </pattern>
+            <clipPath id="egg-outline"><circle cx="122" cy="140" r="108"/></clipPath>
+          </defs>
+          <circle cx="122" cy="140" r="108" fill="#97b6bf" stroke="#1b201a" stroke-width="1.4"/>
+          <circle cx="122" cy="140" r="100" fill="#765f46" stroke="#1b201a" stroke-width="1.4"/>
+          <circle cx="122" cy="140" r="84" fill="#4f8991" stroke="#1b201a" stroke-width="1.4"/>
+          <circle cx="122" cy="140" r="68" fill="#959371" stroke="#1b201a" stroke-width="1.4"/>
+          <circle cx="122" cy="140" r="52" fill="#87615f" stroke="#1b201a" stroke-width="1.4"/>
+          <circle cx="122" cy="140" r="36" fill="#b09157" stroke="#1b201a" stroke-width="1.4"/>
+          <circle cx="122" cy="140" r="20" fill="#a46167" stroke="#1b201a" stroke-width="1.4"/>
+          <path d="M14 32 H122 V248 H14 Z" fill="url(#shell-lines)" clip-path="url(#egg-outline)"/>
+          <g fill="none" stroke="#ecede6" stroke-width="1.2">
+            <path d="M164 45 L238 32 H251"/>
+            <path d="M181 69 L238 64 H251"/>
+            <path d="M189 105 L238 96 H251"/>
+            <path d="M177 136 L238 128 H251"/>
+            <path d="M159 157 L238 160 H251"/>
+            <path d="M138 167 L238 192 H251"/>
+            <path d="M123 151 L238 224 H251"/>
+          </g>
+          <circle cx="164" cy="45" r="3" fill="#182019" stroke="#fff"/><text x="258" y="37" class="route-name">Glass shell</text>
+          <circle cx="181" cy="69" r="3" fill="#182019" stroke="#fff"/><text x="258" y="69" class="route-name">Factory</text>
+          <circle cx="189" cy="105" r="3" fill="#182019" stroke="#fff"/><text x="258" y="101" class="route-name">Poolrooms</text>
+          <circle cx="177" cy="136" r="3" fill="#182019" stroke="#fff"/><text x="258" y="133" class="route-name">Office</text>
+          <circle cx="159" cy="157" r="3" fill="#182019" stroke="#fff"/><text x="258" y="165" class="route-name">Hotel</text>
+          <circle cx="138" cy="167" r="3" fill="#182019" stroke="#fff"/><text x="258" y="197" class="route-name">Threshold</text>
+          <circle cx="123" cy="151" r="3" fill="#182019" stroke="#fff"/><text x="258" y="229" class="route-name">Core</text>
+        </svg>
+        <figcaption>The bands show encounter order. Crews reach the Egg at different elevations by clearing Threat Rooms and crossing the chasm. The final approach starts beyond the correct Hotel exit, where the crew picks up the analyzer before exposing the Threshold and finding the core door.</figcaption>
+      </figure>
     </section>
     <details class="raw-note">
       <summary><span class="when-closed">Show raw note</span><span class="when-open">Hide raw note</span></summary>
