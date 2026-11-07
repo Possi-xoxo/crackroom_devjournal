@@ -6,12 +6,133 @@
   <meta name="color-scheme" content="dark">
   <title>Michael Notes — In to the Crackrooms</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="michael-notes.css">
 </head>
 <body>
-  <main class="developer-sheet">
-    <a class="text-button" href="./">← Back to journal</a>
-    <h1>Michael Notes</h1>
-    <a class="text-button" href="index.html#michael-notes">Open draft editor</a>
+  <main class="developer-sheet michael-sheet">
+    <div class="sheet-links"><a href="./">← Back to journal</a><a href="index.html#michael-notes">Open draft editor ↗</a></div>
+    <header class="sheet-intro">
+      <div class="eyebrow">Michael’s design proposal</div>
+      <h1>Michael Notes</h1>
+      <p>A corporation in the Backrooms hires a research crew to investigate a layered orb known as the Egg. A whole region of the Backrooms appears to have imploded into it. The crew must work its way to the core to find out whether it caused the anomaly.</p>
+    </header>
+    <div class="jump-links" aria-label="On this page"><a href="#route">Floor connections</a><a href="#prototype">Prototype sequence</a><a href="#equipment">Tools and supplies</a><a href="#stations">Base stations</a><a href="#open">Open questions</a></div>
+    <section id="route">
+      <h2>How the floors connect</h2>
+      <div class="map-grid">
+        <figure class="drawing">
+          <svg viewBox="0 0 425 285" role="img" aria-labelledby="route-title route-desc">
+            <title id="route-title">Threat Room passage and first-floor shortcut</title>
+            <desc id="route-desc">From a lower tier, the crew enters and clears a Threat Room to reach the upper Threshold. The exit also leads back into that room. Finding the paired door on the upper tier opens a two-way shortcut to a previously locked first-floor gateway. Base is a walk from that gateway.</desc>
+            <defs>
+              <marker id="up-arrow" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L8 4 L0 8" fill="#cde990"/></marker>
+              <marker id="back-arrow" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L8 4 L0 8" fill="#97cbd5"/></marker>
+            </defs>
+            <g text-anchor="middle">
+              <rect x="7" y="14" width="153" height="54" rx="5" class="route-box"/><text x="84" y="47" class="route-name">Lower tier</text>
+              <rect x="255" y="14" width="163" height="54" rx="5" class="route-box"/><text x="337" y="47" class="route-name">Threat Room</text>
+              <rect x="255" y="146" width="163" height="65" rx="5" class="route-box"/><text x="337" y="175" class="route-name">Upper tier</text><text x="337" y="196" class="route-small">surrounding Threshold</text>
+              <rect x="7" y="146" width="153" height="65" rx="5" class="route-box"/><text x="84" y="175" class="route-name">First-floor gate</text><text x="84" y="196" class="route-small">locked at first</text>
+              <path d="M163 42 H251" stroke="#cde990" stroke-width="2" marker-end="url(#up-arrow)"/><text x="206" y="32" class="route-label">Enter</text>
+              <path d="M292 71 V141" stroke="#cde990" stroke-width="2" marker-end="url(#up-arrow)"/><text x="268" y="112" class="route-label">Clear</text>
+              <path d="M355 142 V74" stroke="#97cbd5" stroke-width="2" marker-end="url(#back-arrow)"/><text x="385" y="112" class="route-small">Return</text>
+              <path d="M166 178 H249" stroke="#97cbd5" stroke-width="2" marker-start="url(#back-arrow)" marker-end="url(#back-arrow)"/><text x="207" y="161" class="route-small">Unlock</text>
+              <path d="M84 216 V249" stroke="#97cbd5" stroke-width="2" marker-end="url(#back-arrow)"/><text x="84" y="274" class="route-name">Walk to base</text>
+            </g>
+          </svg>
+          <figcaption>Clearing a Threat Room gains elevation. Finding its tier’s paired door shortens the next trip.</figcaption>
+        </figure>
+        <ol class="flow-notes">
+          <li><strong>Climb.</strong> A portal-like doorway opens into a dangerous version of a familiar Backrooms location. Its geometry lets the entrance and exit meet the sphere at different elevations.</li>
+          <li><strong>Choose a return route.</strong> Step back through the exit to revisit the Threat Room, or explore the surrounding floor for its paired door.</li>
+          <li><strong>Open the shortcut from above.</strong> The crew can discover a gateway on the first floor early. It stays locked until someone finds its partner on the upper tier. Once open, the first floor connects unlocked tiers in a few crossings.</li>
+        </ol>
+      </div>
+    </section>
+    <section id="prototype">
+      <h2>Prototype sequence</h2>
+      <p>The corporation sets collection targets. Players carry material back to base, use the stations, and earn tools or research for the next stage.</p>
+      <ul class="chain" aria-label="Collection cycle"><li>Take an objective</li><li>Reach the layer</li><li>Harvest</li><li>Walk back and deposit</li><li>Unlock the next step</li></ul>
+      <div class="sequence-grid">
+        <figure class="drawing">
+  <h3>From glass to research</h3>
+  <svg viewBox="0 0 396 344" role="img" aria-labelledby="scrap-desc">
+    <title id="scrap-desc">The company issues a hammer and a glass order. The crew deposits glass, receives an auger, and returns with factory scrap. Research opens and the crew can craft a bridge.</title>
+    <defs><marker id="scrap-head" viewBox="0 0 9 8" refX="8" refY="4" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L8 4 L0 8 Z" fill="#cde990"/></marker></defs>
+    <text x="47" y="27" text-anchor="middle" class="route-name">Company</text><path d="M47 39 V334" stroke="#62705c" stroke-dasharray="4 4"/>
+    <text x="198" y="27" text-anchor="middle" class="route-name">Crew</text><path d="M198 39 V334" stroke="#62705c" stroke-dasharray="4 4"/>
+    <text x="349" y="27" text-anchor="middle" class="route-name">Base</text><path d="M349 39 V334" stroke="#62705c" stroke-dasharray="4 4"/>
+    <text x="122.5" y="73" text-anchor="middle" class="route-small">Hammer + glass order</text><path d="M47 81 H198" stroke="#cde990" stroke-width="1.8" marker-end="url(#scrap-head)"/>
+    <text x="273.5" y="119" text-anchor="middle" class="route-small">Deposit shell glass</text><path d="M198 127 H349" stroke="#cde990" stroke-width="1.8" marker-end="url(#scrap-head)"/>
+    <text x="122.5" y="165" text-anchor="middle" class="route-small">Auger + scrap order</text><path d="M47 173 H198" stroke="#cde990" stroke-width="1.8" marker-end="url(#scrap-head)"/>
+    <text x="273.5" y="211" text-anchor="middle" class="route-small">Deposit factory scrap</text><path d="M198 219 H349" stroke="#cde990" stroke-width="1.8" marker-end="url(#scrap-head)"/>
+    <text x="273.5" y="257" text-anchor="middle" class="route-small">Research access</text><path d="M349 265 H198" stroke="#cde990" stroke-width="1.8" marker-end="url(#scrap-head)"/>
+    <text x="273.5" y="303" text-anchor="middle" class="route-small">Craft bridge pieces</text><path d="M198 311 H349" stroke="#cde990" stroke-width="1.8" marker-end="url(#scrap-head)"/>
+  </svg>
+</figure>
+        <figure class="drawing">
+  <h3>Testing a hotel door</h3>
+  <svg viewBox="0 0 396 344" role="img" aria-labelledby="hotel-desc">
+    <title id="hotel-desc">After the crew opens a hotel door with the skeleton key and clears the Threat Room, the exit column shows the floor. A wrong door returns the crew to the previous landing. The correct door leads up to the analyzer.</title>
+    <defs><marker id="hotel-head" viewBox="0 0 9 8" refX="8" refY="4" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L8 4 L0 8 Z" fill="#cde990"/></marker></defs>
+    <text x="47" y="27" text-anchor="middle" class="route-name">Crew</text><path d="M47 39 V334" stroke="#62705c" stroke-dasharray="4 4"/>
+    <text x="198" y="27" text-anchor="middle" class="route-name">Threat room</text><path d="M198 39 V334" stroke="#62705c" stroke-dasharray="4 4"/>
+    <text x="349" y="27" text-anchor="middle" class="route-name">Threshold</text><path d="M349 39 V334" stroke="#62705c" stroke-dasharray="4 4"/>
+    <text x="122.5" y="73" text-anchor="middle" class="route-small">Use skeleton key</text><path d="M47 81 H198" stroke="#cde990" stroke-width="1.8" marker-end="url(#hotel-head)"/>
+    <text x="273.5" y="119" text-anchor="middle" class="route-small">Clear room and exit</text><path d="M198 127 H349" stroke="#cde990" stroke-width="1.8" marker-end="url(#hotel-head)"/>
+    <text x="198" y="165" text-anchor="middle" class="route-small">Read floor number</text><path d="M349 173 H47" stroke="#cde990" stroke-width="1.8" marker-end="url(#hotel-head)"/>
+    <text x="122.5" y="211" text-anchor="middle" class="route-small">Same floor? Try again</text><path d="M47 219 H198" stroke="#cde990" stroke-width="1.8" marker-end="url(#hotel-head)"/>
+    <text x="273.5" y="257" text-anchor="middle" class="route-small">Correct door advances</text><path d="M198 265 H349" stroke="#cde990" stroke-width="1.8" marker-end="url(#hotel-head)"/>
+    <text x="198" y="303" text-anchor="middle" class="route-small">Collect analyzer</text><path d="M349 311 H47" stroke="#cde990" stroke-width="1.8" marker-end="url(#hotel-head)"/>
+  </svg>
+</figure>
+      </div>
+      <ol class="stage-list">
+        <li><h3>Glass shell · collect glass</h3><p>Enter the Backrooms, pick up the complimentary hammer, and follow the premade ramp to the Egg. Shatter enough of the first-level shell to fill the company’s glass order. The company issues an auger.</p></li>
+        <li><h3>Factory · collect scrap metal</h3><p>Break into the factory beneath the glass. Take scrap back to Material Deposit to unlock the Research Station and the first scaffolding and bucket recipes. The next order is plastic from the Pool Slide. Keep collecting scrap for the crossing ahead.</p></li>
+        <li><h3>Level two · reach the Poolrooms</h3><p>Find the first-level door and clear its Threat Room. Level two has no premade ramp. Craft scaffold platforms at base with level-one scrap and build a bridge across the chasm. Break the glass to expose the Poolrooms, the first source of pool water. Mine the slide plastic to complete the order and unlock research for the jug and Reality Gun. Use the gun to phase in the shifting material blocking the next Threat Door.</p></li>
+        <li><h3>Office · collect PC parts</h3><p>Cross to the next floor, break the glass, and phase in the distorted layer covering the office. The shallow ring of cubicles is a scavenging stop. Raid desks and break computers for parts. Completing the PC-parts order earns skeleton-key research. Use the key at the locked door, clear the Threat Room, and pursue the next objective, the Company Analyzer.</p></li>
+        <li><h3>Hotel · find the way up</h3><p>Break the glass and auger into a mostly hollow maze of hotel rooms. The skeleton key opens every candidate door. Only one route advances. The other Threat Rooms exit at the previous landing. Read the floor number on the exit column to recognize a repeat. Random door placement can mean several attempts. A costly Door Detector offers a shortcut for a crew that has found enough treasure.</p></li>
+        <li><h3>Final floor · scan the Threshold</h3><p>The analyzer is waiting at the landing, completing the retrieval objective. Break the glass to find the same Threshold material that has surrounded the crew throughout the climb, now encased inside the Egg. Scan it to earn research for solvent and the solvent gun.</p></li>
+        <li><h3>Core · harvest the final material</h3><p>The final push draws on scrap metal, computer chips, jugs of pool water, and plastic. Craft the supplies and spray away the Threshold layers until the opening resembles the outer halls. Locate the final door. The proposed win condition is harvesting the inner core material on the top floor. The end event is still open.</p></li>
+      </ol>
+    </section>
+    <section id="equipment">
+      <h2>Tools and supplies</h2>
+      <dl class="inventory">
+        <div><dt>Hammer</dt><dd>Breaks the initial glass shell. After researching the railing recipe, use the hammer with metal scrap to make railing.</dd></div>
+        <div><dt>Auger</dt><dd>Breaks hard material and collects debris from the factory and Poolrooms.</dd></div>
+        <div><dt>Solvent and solvent gun</dt><dd>Research unlocks the solvent and its applicator. Collected pool water goes into the solvent used to strip the Threshold.</dd></div>
+        <div><dt>Scaffolding</dt><dd>Craft flat railing or platform sections from scrap to span the chasm and reach the Egg at different elevations.</dd></div>
+        <div><dt>Reality Gun</dt><dd>Research tool that brings distorted Backrooms debris into phase so the crew can mine it or clear a blocked doorway.</dd></div>
+        <div><dt>Soft tool</dt><dd>Harvests softer material in the Office and Hotel.</dd></div>
+        <div><dt>Garbage bags</dt><dd>Small reusable carriers for glass and other solids. Most useful before the crew can make buckets.</dd></div>
+        <div><dt>Buckets</dt><dd>Carry solid material for deposit or research. The solvent notes also describe collecting pool water in buckets.</dd></div>
+        <div><dt>Jug</dt><dd>A liquid carrier that requires glass research. The Pool Slide objective unlocks the research in the prototype.</dd></div>
+        <div><dt>Marker and flashlight</dt><dd>Mark doors with the marker. Use the flashlight for a flash of light.</dd></div>
+        <div><dt>Metal Detector</dt><dd>Locates valuable treasure inside the Egg. Sell finds to fund optional purchases.</dd></div>
+        <div><dt>Door Detector</dt><dd>An expensive store upgrade for finding the onward route through the hotel.</dd></div>
+      </dl>
+    </section>
+    <section id="stations">
+      <h2>Stations at base</h2>
+      <dl class="inventory">
+        <div><dt>Material Deposit</dt><dd>Hand in collected material to meet the current objective.</dd></div>
+        <div><dt>Research Station</dt><dd>Opens after the scrap-metal order. Research supplies the recipes and tools needed for later layers.</dd></div>
+        <div><dt>Craft Station</dt><dd>Turn collected supplies into progression items, including scaffold platforms and solvent.</dd></div>
+        <div><dt>Store</dt><dd>Spend treasure proceeds on extras and expensive upgrades. Treasure can fall out of the Egg, but a run may yield none. The crew can finish with the ordinary tools and door routes.</dd></div>
+      </dl>
+    </section>
+    <section id="open">
+      <h2>Details to settle</h2>
+      <ul class="questions">
+        <li><strong>First Threat Door.</strong> What keeps the crew from finding or using it before the Pool Slide objective?</li>
+        <li><strong>Water containers.</strong> Can buckets carry pool water before jug research, or are jugs required for the solvent supply?</li>
+        <li><strong>Office or Hotel?</strong> The notes call the cubicle ring the Hotel once. The prototype above places it with the PC-parts order and treats the later hotel-room labyrinth as a separate stop.</li>
+        <li><strong>Analyzer floor.</strong> The assignment names the fourth floor. The pickup happens on the last floor after the hotel. The floor numbering still needs to be reconciled.</li>
+        <li><strong>Final door.</strong> Where does the core harvest happen in relation to the final door and the end event?</li>
+      </ul>
+    </section>
   </main>
 </body>
 </html>
